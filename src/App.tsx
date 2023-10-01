@@ -25,8 +25,6 @@ const data = {
   },
 };
 
-// test changes
-
 function App() {
   const code = "codemarns";
   const headerData = data && data.header;
@@ -47,7 +45,7 @@ function App() {
           <Route path="/portfolio/landing" element={<Landing />} />
           <Route path="/portfolio/experiences" element={<Experiences />} />
           <Route path="/portfolio/coming-soon" element={<ComingSoon />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/portfolio/*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Container>
