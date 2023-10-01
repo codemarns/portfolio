@@ -20,12 +20,13 @@ const data = {
       { path: "/portfolio/about", page: "about" },
       { path: "/portfolio/landing", page: "landing" },
       { path: "/portfolio/experiences", page: "experiences" },
-      { path: "/portfolio/coming-soon", page: "coming-soon" },
     ],
   },
 };
 
 function App() {
+  const comingSoon = true;
+
   const code = "codemarns";
   const headerData = data && data.header;
 
@@ -33,6 +34,8 @@ function App() {
     code,
     "w-screen h-screen overflow-x-hidden overflow-y-auto"
   );
+
+  if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
 
   return (
     <main className={mainClasses}>
@@ -44,7 +47,6 @@ function App() {
           <Route path="/portfolio/about" element={<About />} />
           <Route path="/portfolio/landing" element={<Landing />} />
           <Route path="/portfolio/experiences" element={<Experiences />} />
-          <Route path="/portfolio/coming-soon" element={<ComingSoon />} />
           <Route path="/portfolio/*" element={<NotFound />} />
         </Routes>
         <Footer />
