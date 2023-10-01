@@ -35,6 +35,7 @@ const Header: React.FC<HeaderProps> = (props) => {
           <h1 className="text-2xl font-semibold">
             {name?.map((item, index) => (
               <span
+                key={index}
                 className={cn("leading-none", {
                   ["text-success"]: index === 0,
                   ["text-default-700"]: index === 1,
