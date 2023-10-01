@@ -17,11 +17,10 @@ const data = {
     logo: codemarnsLogo,
     name: ["_code", "marns"],
     menu: [
-      { path: "/home", page: "home" },
-      { path: "/about", page: "about" },
-      { path: "/landing", page: "landing" },
-      { path: "/experiences", page: "experiences" },
-      { path: "/coming-soon", page: "coming-soon" },
+      { path: "/portfolio/about", page: "about" },
+      { path: "/portfolio/landing", page: "landing" },
+      { path: "/portfolio/experiences", page: "experiences" },
+      { path: "/portfolio/coming-soon", page: "coming-soon" },
     ],
   },
 };
@@ -41,11 +40,11 @@ function App() {
 
       <Container>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/landing" element={<Landing />} />
-          <Route path="/experiences" element={<Experiences />} />
-          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/portfolio/" element={<Home />} />
+          <Route path="/portfolio/about" element={<About />} />
+          <Route path="/portfolio/landing" element={<Landing />} />
+          <Route path="/portfolio/experiences" element={<Experiences />} />
+          <Route path="/portfolio/coming-soon" element={<ComingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

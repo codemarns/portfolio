@@ -21,12 +21,12 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = (props) => {
   const { data } = props;
-  const { logo, name } = data || {};
+  const { logo, name, menu } = data || {};
 
   return (
     <header className="sticky top-0 z-50 w-full h-16 bg-default-950/50 backdrop-blur-md border-b border-b-default-900">
       <div className="w-full xl:container h-full px-4 mx-auto flex items-center justify-between">
-        <Link to="/" className="outline-none flex items-center">
+        <Link to="/portfolio/" className="outline-none flex items-center">
           <img
             src={logo}
             alt="_codemarns logo"
@@ -49,18 +49,13 @@ const Header: React.FC<HeaderProps> = (props) => {
 
         <nav>
           <ul className="flex-1 flex items-center justify-center gap-4">
-            <li>
-              <Link to="/about">ABOUT</Link>
-            </li>
-            <li>
-              <Link to="/landing">LANDING</Link>
-            </li>
-            <li>
-              <Link to="/experiences">EXPERIENCES</Link>
-            </li>
-            <li>
-              <Link to="/coming-soon">COMING SOON</Link>
-            </li>
+            {menu?.map((item, index) => (
+              <li key={index}>
+                <Link to={item.path} className="uppercase">
+                  {item.page}
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
