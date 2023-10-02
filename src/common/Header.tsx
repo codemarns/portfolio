@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import cn from "classnames";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 type Page = {
   path: string;
@@ -26,11 +26,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="sticky top-0 z-50 w-full h-16 bg-default-950/50 backdrop-blur-md border-b border-b-default-900">
       <div className="w-full xl:container h-full px-4 mx-auto flex items-center justify-between">
-        <NavLink
-          reloadDocument
-          to="/portfolio/"
-          className="outline-none flex items-center"
-        >
+        <Link to="/portfolio/" className="outline-none flex items-center">
           <img
             src={logo}
             alt="_codemarns logo"
@@ -49,20 +45,13 @@ const Header: React.FC<HeaderProps> = (props) => {
               </span>
             ))}
           </h1>
-        </NavLink>
+        </Link>
 
         <nav>
           <ul className="flex-1 flex items-center justify-center gap-4">
             {menu?.map((item, index) => (
               <li key={index} className="list-none">
-                <NavLink
-                  // reloadDocument
-                  to={item.path}
-                  // className={"aria-[current=page]:text-success"}
-                  // className={({ isActive }) => isActive ? "text-success" : "INACTIVE"}
-                >
-                  {item.page}
-                </NavLink>
+                <Link to={item.path}>{item.page}</Link>
               </li>
             ))}
           </ul>
