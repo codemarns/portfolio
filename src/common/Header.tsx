@@ -56,7 +56,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             {menu?.map((item, index) => (
               <li key={index}>
                 <NavLink
-                  reloadDocument
+                  // reloadDocument
                   to={item.path}
                   // className={({ isActive }) => isActive ? "text-success" : "INACTIVE"}
                 >
