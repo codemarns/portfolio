@@ -59,7 +59,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                   reloadDocument
                   to={item.path}
                   className={({ isActive }) => {
-                    return cn("uppercase", isActive ? "text-success" : "");
+                    return isActive ? "text-success" : "";
                   }}
                 >
                   {item.page}
