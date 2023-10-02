@@ -50,7 +50,7 @@ function App() {
     <main className={mainClasses}>
       <Header data={headerData} />
 
-      <Container>
+      <Container className="min-h-[calc(100%-64px)]">
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/about" element={<About />} />
