@@ -44,7 +44,7 @@ function App() {
   if (landing) return <Landing />;
   if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
 
-  // test build
+  // test builds
 
   return (
     <main className={mainClasses}>
