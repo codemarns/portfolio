@@ -58,7 +58,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <NavLink
                   reloadDocument
                   to={item.path}
-                  className={({ isActive }) => isActive ? "text-success" : ""}
+                  className={({ isActive }) => isActive ? "text-success" : "INACTIVE"}
                 >
                   {item.page}
                 </NavLink>
