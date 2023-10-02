@@ -39,10 +39,12 @@ function App() {
     "w-screen h-screen overflow-x-hidden overflow-y-auto"
   );
 
-  if (signUp) return <SignUp />
-  if (login) return <Login />
-  if (landing) return <Landing />
+  if (signUp) return <SignUp />;
+  if (login) return <Login />;
+  if (landing) return <Landing />;
   if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
+
+  // test build
 
   return (
     <main className={mainClasses}>
