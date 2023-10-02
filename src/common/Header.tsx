@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     <header className="sticky top-0 z-50 w-full h-16 bg-default-950/50 backdrop-blur-md border-b border-b-default-900">
       <div className="w-full xl:container h-full px-4 mx-auto flex items-center justify-between">
         <NavLink
-          reloadDocument
+          // reloadDocument
           to="/portfolio/"
           className="outline-none flex items-center"
         >
@@ -56,7 +56,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             {menu?.map((item, index) => (
               <li key={index} className="list-none">
                 <NavLink
-                  reloadDocument
+                  // reloadDocument
                   to={item.path}
                   className={"aria-[current=page]:text-success"}
                 >
