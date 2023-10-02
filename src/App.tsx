@@ -10,6 +10,8 @@ import {
   Experiences,
   ComingSoon,
   NotFound,
+  SignUp,
+  Login,
 } from "./pages";
 
 const data = {
@@ -18,14 +20,16 @@ const data = {
     name: ["_code", "marns"],
     menu: [
       { path: "/portfolio/about", page: "about" },
-      { path: "/portfolio/landing", page: "landing" },
       { path: "/portfolio/experiences", page: "experiences" },
     ],
   },
 };
 
 function App() {
-  const comingSoon = true;
+  const login = false;
+  const signUp = false;
+  const landing = false;
+  const comingSoon = false;
 
   const code = "codemarns";
   const headerData = data && data.header;
@@ -35,6 +39,9 @@ function App() {
     "w-screen h-screen overflow-x-hidden overflow-y-auto"
   );
 
+  if (signUp) return <SignUp />
+  if (login) return <Login />
+  if (landing) return <Landing />
   if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
 
   return (
@@ -45,9 +52,8 @@ function App() {
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/landing" element={<Landing />} />
           <Route path="/portfolio/experiences" element={<Experiences />} />
-          <Route path="/portfolio/*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Container>
