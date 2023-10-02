@@ -54,11 +54,11 @@ const Header: React.FC<HeaderProps> = (props) => {
         <nav>
           <ul className="flex-1 flex items-center justify-center gap-4">
             {menu?.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="list-none">
                 <NavLink
                   reloadDocument
                   to={item.path}
-                  className={({ isActive }) => isActive ? "text-success" : "INACTIVE"}
+                  className={"aria-[current=page]:text-success"}
                 >
                   {item.page}
                 </NavLink>
