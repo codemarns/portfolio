@@ -1,8 +1,8 @@
 // import React from "react";
 import cn from "classnames";
 import { Routes, Route } from "react-router-dom";
-import { Header, Container, Footer } from "./common";
 import codemarnsLogo from "/codemarns-logo.svg";
+import { Header } from "./common";
 import {
   Home,
   About,
@@ -44,21 +44,15 @@ function App() {
   if (landing) return <Landing />;
   if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
 
-  // test builds
-
   return (
     <main className={mainClasses}>
       <Header data={headerData} />
-
-      <Container className="min-h-[calc(100%-64px)]">
-        <Routes>
-          <Route path="/portfolio/" element={<Home />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/experiences" element={<Experiences />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-      </Container>
+      <Routes>
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/portfolio/experiences" element={<Experiences />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </main>
   );
 }
