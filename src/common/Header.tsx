@@ -2,6 +2,7 @@
 import React from "react";
 import cn from "classnames";
 import { Link } from "react-router-dom";
+import { Container } from ".";
 
 type Page = {
   path: string;
@@ -24,8 +25,12 @@ const Header: React.FC<HeaderProps> = (props) => {
   const { logo, name, menu } = data || {};
 
   return (
-    <header className="sticky top-0 z-50 w-full h-16 bg-default-950/50 backdrop-blur-md border-b border-b-default-900">
-      <div className="w-full xl:container h-full px-4 mx-auto flex items-center justify-between">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full h-20 bg-default-950/30 backdrop-blur-md">
+      <Container
+        size="xl"
+        paddingX="xl"
+        className="h-full flex items-center justify-between"
+      >
         <Link to="/portfolio/" className="outline-none flex items-center">
           <img
             src={logo}
@@ -51,12 +56,17 @@ const Header: React.FC<HeaderProps> = (props) => {
           <ul className="flex-1 flex items-center justify-center gap-4">
             {menu?.map((item, index) => (
               <li key={index} className="list-none">
-                <Link to={item.path}>{item.page}</Link>
+                <Link
+                  to={item.path}
+                  className="w-auto h-10 px-4 flex items-center uppercase font-extralight tracking-widest hover:text-success"
+                >
+                  {item.page}
+                </Link>
               </li>
             ))}
           </ul>
         </nav>
-      </div>
+      </Container>
     </header>
   );
 };
