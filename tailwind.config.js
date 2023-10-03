@@ -52,7 +52,13 @@ export default {
       "success-950": "#001A14",
       white: "#FFFFFF",
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '425px',
+        // => @media (min-width: 425px) { ... }
+  
+      },
+    },
   },
   plugins: [],
 }
