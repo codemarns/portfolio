@@ -25,16 +25,16 @@ html {
 }
 
 @media screen and (max-height: 734px) {
-  #hero-section {
+  #hero {
     @apply !min-h-[99vh];
   }
-  #hero-section-container {
+  #hero-container {
     @apply !p-0;
   }
 }
 
 @media screen and (max-height: 734px) and (max-width: 1023px) and (orientation: landscape) {
-  #hero-section {
+  #hero {
     @apply !h-auto;
   }
 }

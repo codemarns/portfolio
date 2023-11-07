@@ -5,8 +5,8 @@ export const Hero = () => {
   const { root, container, column } = heroStyles;
 
   return (
-    <section id="hero-section" className={root.base}>
-      <div id="hero-section-container" className={container.base}>
+    <section id="hero" className={root.base}>
+      <div id="hero-container" className={container.base}>
         <div className={column.left.base}>
           <div className={column.left.image.wraper}>
             <img
