@@ -1,38 +1,74 @@
 import React from "react";
 import cn from "classnames";
-import { ButtonProps } from ".";
-import { styles } from "./styles";
+import { Icon } from "../Icon/Icon";
+import { DefaultColorEnum, SizeEnum } from "../../shared";
+import { buttonStyles } from "../../styles";
 
-const Button: React.FC<ButtonProps> = (props) => {
+type TButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
+  icon?: string;
+  label?: string;
+  loading?: boolean;
+  disabled?: boolean;
+  layout?: "auto" | "block";
+  type?: "button" | "reset" | "submit";
+  variant?: "solid" | "outline" | "ghost";
+  corner?: "flat" | "soft-edge" | "rounded";
+  size?: keyof typeof SizeEnum;
+  color?: keyof typeof DefaultColorEnum;
+};
+
+export const Button: React.FC<TButtonProps> = (props) => {
   const {
     className,
-    children,
-    label,
     icon,
+    label,
+    children,
+    id = "button",
     size = "md",
-    corner = "soft-edge",
-    color = "success",
+    layout = "auto",
+    type = "button",
+    color = "primary",
     variant = "solid",
+    corner = "soft-edge",
+    disabled = false,
+    loading = false,
     ...restProps
   } = props;
 
+  const { root } = buttonStyles;
+
   const baseClasses = cn(
-    "BUTTON",
-    styles.root,
-    styles.color[color],
-    styles.corner[corner],
-    styles.size.height[size],
-    styles.variant[variant].bgColor[color],
-    label ? styles.padding[size] : styles.size.width[size],
+    "cm-button",
+    root.base,
+    root.sizes[size],
+    root.corners[corner],
+    root.variants[variant].colors[color].base,
+    disabled || loading
+      ? [root.cursors.disable, root.variants[variant].colors[color].disable]
+      : [root.cursors.default, root.variants[variant].colors[color].default],
+    {
+      [root.block.base]: layout === "block",
+      [root.widthSizes[size]]: !(label || children),
+    },
     className
   );
 
   return (
-    <button {...restProps} className={baseClasses}>
-      {icon}
-      {label || children}
+    <button
+      {...restProps}
+      id={id}
+      type={type}
+      className={baseClasses}
+      aria-disabled={disabled || loading}
+      aria-label={label}
+    >
+      {icon && (
+        <Icon
+          name={loading ? "spinner" : icon}
+          className={cn({ [root.icon.base]: loading })}
+        />
+      )}
+      {loading ? "Loading..." : label || children}
     </button>
   );
 };
-
-export default Button;
