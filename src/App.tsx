@@ -1,59 +1,25 @@
-// import React from "react";
-import cn from "classnames";
-import { Routes, Route } from "react-router-dom";
-import codemarnsLogo from "/codemarns-logo.svg";
 import { Header } from "./common";
-import {
-  Home,
-  About,
-  Landing,
-  Experiences,
-  ComingSoon,
-  NotFound,
-  SignUp,
-  Login,
-} from "./pages";
-
-const data = {
-  header: {
-    logo: codemarnsLogo,
-    name: ["_code", "marns"],
-    menu: [
-      { path: "/portfolio/about", page: "about" },
-      { path: "/portfolio/experiences", page: "experiences" },
-    ],
-  },
-};
+import { Hero } from "./sections";
+import { ScrollToTop } from "./components";
 
 function App() {
-  const login = false;
-  const signUp = false;
-  const landing = false;
-  const comingSoon = false;
-
-  const code = "codemarns";
-  const headerData = data && data.header;
-
-  const mainClasses = cn(
-    code,
-    "w-screen h-screen overflow-x-hidden overflow-y-auto"
-  );
-
-  if (signUp) return <SignUp />;
-  if (login) return <Login />;
-  if (landing) return <Landing />;
-  if (comingSoon) return <ComingSoon logo={codemarnsLogo} />;
-
   return (
-    <main className={mainClasses}>
-      <Header data={headerData} />
-      <Routes>
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path="/portfolio/about" element={<About />} />
-        <Route path="/portfolio/experiences" element={<Experiences />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </main>
+    <>
+      <Header />
+      <main className="">
+        <Hero />
+        <section id="b" className="h-[700px] w-full px-8 py-20 bg-secondary">
+          <div className="w-full h-full bg-white/30">Section B</div>
+        </section>
+        <section id="c" className="h-[700px] w-full px-8 py-20 bg-info">
+          <div className="w-full h-full bg-white/30">Section C</div>
+        </section>
+        <section id="d" className="h-[700px] w-full px-8 py-20 bg-success">
+          <div className="w-full h-full bg-white/30">Section D</div>
+        </section>
+        <ScrollToTop />
+      </main>
+    </>
   );
 }
 
