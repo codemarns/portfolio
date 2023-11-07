@@ -1,21 +1,28 @@
-import { Header } from "./common";
-import { Hero } from "./sections";
+// import { Header } from "./common";
+import { About, Hero } from "./sections";
 import { ScrollToTop } from "./components";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="">
         <Hero />
-        <section id="b" className="h-[700px] w-full px-8 py-20 bg-secondary">
-          <div className="w-full h-full bg-white/30">Section B</div>
+        <About />
+        <section id="skills" className="h-[700px] w-full px-8 py-20 bg-info">
+          <div className="w-full h-full bg-white/30">Skills</div>
         </section>
-        <section id="c" className="h-[700px] w-full px-8 py-20 bg-info">
-          <div className="w-full h-full bg-white/30">Section C</div>
+        <section
+          id="designs"
+          className="h-[700px] w-full px-8 py-20 bg-success"
+        >
+          <div className="w-full h-full bg-white/30">Designs</div>
         </section>
-        <section id="d" className="h-[700px] w-full px-8 py-20 bg-success">
-          <div className="w-full h-full bg-white/30">Section D</div>
+        <section
+          id="contact"
+          className="h-[700px] w-full px-8 py-20 bg-success"
+        >
+          <div className="w-full h-full bg-white/30">Contacts</div>
         </section>
         <ScrollToTop />
       </main>
