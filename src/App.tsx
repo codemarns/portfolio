@@ -1,5 +1,5 @@
 // import { Header } from "./common";
-import { About, Hero } from "./sections";
+import { About, Hero, Skills } from "./sections";
 import { ScrollToTop } from "./components";
 
 function App() {
@@ -9,9 +9,7 @@ function App() {
       <main className="">
         <Hero />
         <About />
-        <section id="skills" className="h-[700px] w-full px-8 py-20 bg-info">
-          <div className="w-full h-full bg-white/30">Skills</div>
-        </section>
+        <Skills />
         <section
           id="designs"
           className="h-[700px] w-full px-8 py-20 bg-success"
