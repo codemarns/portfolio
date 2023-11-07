@@ -1,6 +1,6 @@
 export const heroStyles = {
   root: {
-    base: "h-[99vh] lg:h-fit w-full px-8 py-16 lg:py-20 flex items-center justify-center bg-gradient-to-b from-default-950 to-secondary-900",
+    base: "h-[99vh] lg:h-fit w-full px-8 py-16 lg:py-20 flex items-center justify-center bg-gradient-to-b from-default-950 to-secondary-900/50",
   },
   container: {
     base: "h-fit w-full max-w-[1280px] mx-auto lg:px-8 lg:py-20 grid grid-cols-1 lg:grid-cols-[1fr,_552px] xl:grid-cols-2 gap-0 lg:gap-12 items-center duration-300 ease-out transition-all",
