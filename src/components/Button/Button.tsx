@@ -65,6 +65,7 @@ export const Button: React.FC<TButtonProps> = (props) => {
       {icon && (
         <Icon
           name={loading ? "spinner" : icon}
+          color={variant === "solid" ? "white" : color}
           className={cn({ [root.icon.base]: loading })}
         />
       )}
