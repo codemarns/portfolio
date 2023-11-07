@@ -233,3 +233,6 @@
 .cm-icon-times:before {
   content: "\23";
 }
+.cm-icon-check:before {
+  content: "\24";
+}
