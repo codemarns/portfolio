@@ -125,9 +125,6 @@
 .cm-icon-pen:before {
   content: "\43";
 }
-.cm-icon-phone:before {
-  content: "\44";
-}
 .cm-icon-photo:before {
   content: "\45";
 }
@@ -220,4 +217,19 @@
 }
 .cm-icon-arrow-up:before {
   content: "\38";
+}
+.cm-icon-mobile:before {
+  content: "\39";
+}
+.cm-icon-phone:before {
+  content: "\44";
+}
+.cm-icon-home:before {
+  content: "\21";
+}
+.cm-icon-bars:before {
+  content: "\22";
+}
+.cm-icon-times:before {
+  content: "\23";
 }
