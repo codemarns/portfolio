@@ -10,9 +10,9 @@ export const About = () => {
         <div className={description.wrapper}>
           <p className={description.base}>
             I am <b>Marnien Cueba</b>. You can call me <b>Marns</b> for short,
-            and I live in Cebu. An IT college graduate at the Center for
-            Industrial Technology and Enterprise | CITE Technical Institute,
-            Inc.
+            and I live in Cebu, Philippines. An IT college graduate at the
+            Center for Industrial Technology and Enterprise | CITE Technical
+            Institute, Inc.
           </p>
           <p className={description.base}>
             A detail-oriented, UI/UX Designer and Frontend Developer with over 7
