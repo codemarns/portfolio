@@ -9,3 +9,4 @@ export { heroStyles } from "./sections/heroStyles";
 export { aboutStyles } from "./sections/aboutStyles";
 export { skillsStyles } from "./sections/skillsStyles";
 export { experiencesStyles } from "./sections/experiencesStyles";
+export { contactsStyles } from "./sections/contactsStyles";
