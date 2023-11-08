@@ -1,6 +1,9 @@
 export { iconStyles } from "./iconStyles";
 export { buttonStyles } from "./buttonStyles";
 
+export { sectionStyles } from "./sectionStyles";
+export { containerStyles } from "./containerStyles";
+
 export { navStyles } from "./sections/navStyles";
 
 export { heroStyles } from "./sections/heroStyles";
