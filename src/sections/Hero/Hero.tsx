@@ -28,12 +28,14 @@ export const Hero = () => {
               UI/UX Designer and Frontend Developer
             </p>
           </div>
-          <Button
-            size="xl"
-            label="Hire Me"
-            color="secondary"
-            corner="rounded"
-          />
+          <a href="#contacts" className="block">
+            <Button
+              size="xl"
+              label="Hire Me"
+              color="secondary"
+              corner="rounded"
+            />
+          </a>
         </div>
       </div>
     </section>
