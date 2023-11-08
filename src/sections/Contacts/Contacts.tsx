@@ -1,15 +1,19 @@
+import { Form } from "./components/Form";
+import { Details } from "./components/Details";
 import { Container, Section, Title } from "../../components";
+import { contactsStyles } from "../../styles";
 
 export const Contacts = () => {
-  const id = "experiences";
+  const id = "contacts";
+  const { root, content } = contactsStyles;
   return (
-    <Section
-      id={id}
-      className="bg-gradient-to-b from-secondary-900/50 to-default-950"
-    >
+    <Section id={id} className={root.base}>
       <Container id={id + "_container"}>
         <Title name="Contacts" />
-        <div className="h-[500px]"></div>
+        <div className={content.base}>
+          <Details />
+          <Form />
+        </div>
       </Container>
     </Section>
   );
