@@ -236,3 +236,6 @@
 .cm-icon-check:before {
   content: "\24";
 }
+.cm-icon-trophy:before {
+  content: "\25";
+}
