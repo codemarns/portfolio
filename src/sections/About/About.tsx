@@ -1,10 +1,12 @@
+import { Section } from "../../components";
 import { aboutStyles } from "../../styles";
 
 export const About = () => {
+  const id = "about";
   const { root, container, title, description } = aboutStyles;
 
   return (
-    <section id="about" className={root.base}>
+    <Section id={id} className={root.base}>
       <div className={container.base}>
         <h2 className={title.base}>About Me</h2>
         <div className={description.wrapper}>
@@ -25,6 +27,6 @@ export const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

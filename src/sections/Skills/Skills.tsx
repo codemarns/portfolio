@@ -1,9 +1,10 @@
 import cn from "classnames";
-import { Icon } from "../../components";
+import { Icon, Section } from "../../components";
 import { skillsStyles } from "../../styles";
 import { data } from "./data";
 
 export const Skills = () => {
+  const id = "skills";
   const { hard, soft, others } = data;
   const { root, container, title, content } = skillsStyles;
 
@@ -11,7 +12,7 @@ export const Skills = () => {
   const soft_skills = content.skills.soft.list;
 
   return (
-    <section id="skills" className={root.base}>
+    <Section id={id} className={root.base}>
       <div className={container.base}>
         <h2 className={title.base}>Skills</h2>
 
@@ -86,6 +87,6 @@ export const Skills = () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
