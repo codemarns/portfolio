@@ -1,13 +1,13 @@
-import { Section } from "../../components";
+import { Container, Section } from "../../components";
 import { aboutStyles } from "../../styles";
 
 export const About = () => {
   const id = "about";
-  const { root, container, title, description } = aboutStyles;
+  const { root, title, description } = aboutStyles;
 
   return (
     <Section id={id} className={root.base}>
-      <div className={container.base}>
+      <Container id={id + "_container"} size="lg">
         <h2 className={title.base}>About Me</h2>
         <div className={description.wrapper}>
           <p className={description.base}>
@@ -26,7 +26,7 @@ export const About = () => {
             responsive user interfaces that give excellent user experiences.
           </p>
         </div>
-      </div>
+      </Container>
     </Section>
   );
 };
