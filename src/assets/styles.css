@@ -239,3 +239,6 @@
 .cm-icon-trophy:before {
   content: "\25";
 }
+.cm-icon-whatsapp:before {
+  content: "\26";
+}
