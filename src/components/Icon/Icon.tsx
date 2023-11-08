@@ -5,15 +5,17 @@ import { ColorEnum } from "../../shared";
 
 type TIconProps = {
   className?: string;
+  title?: string;
   name: string | undefined;
   color?: keyof typeof ColorEnum;
 };
 
 export const Icon: React.FC<TIconProps> = (props) => {
-  const { className, name, color = "default" } = props;
+  const { className, name, title, color = "default" } = props;
   const { root } = iconStyles;
   return (
     <i
+      title={title}
       className={cn(
         className,
         { ["cm-icon-" + name]: name },
