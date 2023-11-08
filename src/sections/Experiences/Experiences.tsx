@@ -1,11 +1,11 @@
-import { Section } from "../../components";
+import { Container, Section } from "../../components";
 
 export const Experiences = () => {
   const id = "experiences";
 
   return (
     <Section id={id} className="bg-success">
-      <div className="w-full h-full bg-white/30">Experiences</div>
+      <Container id={id + "_container"}>Experiences</Container>
     </Section>
   );
 };
