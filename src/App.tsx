@@ -1,4 +1,4 @@
-import { About, Experiences, Hero, Skills } from "./sections";
+import { About, Contacts, Experiences, Hero, Skills } from "./sections";
 import { ScrollToTop } from "./components";
 
 function App() {
@@ -8,9 +8,7 @@ function App() {
       <About />
       <Skills />
       <Experiences />
-      <section id="contact" className="h-[700px] w-full px-8 py-20 bg-success">
-        <div className="w-full h-full bg-white/30">Contacts</div>
-      </section>
+      <Contacts />
       <ScrollToTop />
     </main>
   );
