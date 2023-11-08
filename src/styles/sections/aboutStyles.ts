@@ -1,6 +1,6 @@
 export const aboutStyles = {
   root: {
-    base: "h-auto w-full px-8 py-16 lg:py-20 bg-default-950", // bg-gradient-to-b from-secondary-700 to-secondary-800
+    base: "bg-default-950",
   },
   container: {
     base: "w-full max-w-[1024px] mx-auto text-center space-y-16",

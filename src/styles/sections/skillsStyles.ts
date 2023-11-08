@@ -1,6 +1,6 @@
 export const skillsStyles = {
   root: {
-    base: "h-auto w-full px-8 py-16 lg:py-20 bg-secondary-900/50",
+    base: "bg-secondary-900/50",
   },
   container: {
     base: "w-full max-w-[1280px] mx-auto text-center space-y-16",
