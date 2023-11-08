@@ -1,14 +1,15 @@
-import { Container, Section } from "../../components";
+import { Container, Section, Title } from "../../components";
 import { aboutStyles } from "../../styles";
 
 export const About = () => {
   const id = "about";
-  const { root, title, description } = aboutStyles;
+  const { root, description } = aboutStyles;
 
   return (
     <Section id={id} className={root.base}>
       <Container id={id + "_container"} size="lg">
-        <h2 className={title.base}>About Me</h2>
+        <Title name="About Me" />
+
         <div className={description.wrapper}>
           <p className={description.base}>
             I am <b>Marnien Cueba</b>. You can call me <b>Marns</b> for short,

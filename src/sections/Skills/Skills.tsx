@@ -1,12 +1,12 @@
 import cn from "classnames";
-import { Container, Icon, Section } from "../../components";
+import { Container, Icon, Section, Title } from "../../components";
 import { skillsStyles } from "../../styles";
 import { data } from "./data";
 
 export const Skills = () => {
   const id = "skills";
   const { hard, soft, others } = data;
-  const { root, title, content } = skillsStyles;
+  const { root, content } = skillsStyles;
 
   const hard_skills = content.skills.hard.list;
   const soft_skills = content.skills.soft.list;
@@ -14,7 +14,7 @@ export const Skills = () => {
   return (
     <Section id={id} className={root.base}>
       <Container id={id + "_container"}>
-        <h2 className={title.base}>Skills</h2>
+        <Title name="Skills" />
 
         <div className={hard_skills.base}>
           {hard.map((e) => {
