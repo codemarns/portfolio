@@ -9,9 +9,11 @@ export const heroStyles = {
     left: {
       base: "p-8 flex items-center justify-center", // lg:justify-end
       image: {
-        wraper:
-          "relative w-full max-w-[85%] xs:max-w-[250px] md:max-w-[300px] xl:max-w-[350px] inline-flex items-center justify-center p-[10%] xs:p-6 md:p-8 bg-secondary/[0.075] rounded-full before:content-[''] before:absolute before:-inset-10 before:bg-secondary/[0.025] before:rounded-full duration-300 ease-out transition-all",
-        base: "w-full",
+        base: "relative aspect-square xs:aspect-auto w-[100%] h-auto xs:w-[235px] xs:h-[235px] md:w-[285px] md:h-[285px] lg:w-[235px] lg:h-[235px] xl:w-[285px] xl:h-[285px] bg-secondary rounded-full",
+        wraper: //  before:bg-secondary/[0.025]
+          "relative w-full xs:w-auto inline-flex items-center justify-center p-[10%] xs:p-6 md:p-8 rounded-full before:content-[''] before:animate-[wiggle_2.5s_ease-in-out_infinite] before:absolute before:inset-4 before:bg-secondary/[0.075] before:rounded-full after:content-[''] after:animate-ping after:absolute after:inset-16 after:-z-[1] after:bg-secondary/[0.7] after:rounded-full duration-300 ease-out transition-all",
+        // adasdd:
+        //   "relative w-full xs:w-auto inline-flex items-center justify-center p-[10%] xs:p-6 md:p-8 bg-secondary/[0.075] rounded-full before:content=[''] before:animate-ping before:absolute before:inline-flex before:h-[75%] before:w-[75%] before:rounded-full before:bg-secondary/[0.075] duration-300 ease-out transition-all",
       },
     },
     right: {

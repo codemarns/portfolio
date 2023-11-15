@@ -10,8 +10,9 @@ export const Hero = () => {
         <div className={column.left.base}>
           <div className={column.left.image.wraper}>
             <img
+              // src=""
               src="marnien-cueba.png"
-              alt="Marnien Cueba Photo"
+              // alt="Marnien Cueba Photo"
               className={column.left.image.base}
             />
           </div>
@@ -28,7 +29,7 @@ export const Hero = () => {
               UI/UX Designer and Frontend Developer
             </p>
           </div>
-          <a href="#contacts" className="block">
+          <a href="#contacts" className="inline-block">
             <Button
               size="xl"
               label="Hire Me"

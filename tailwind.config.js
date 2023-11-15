@@ -86,6 +86,15 @@ export default {
         xs: "425px",
         // => @media (min-width: 425px) { ... }
       },
+      keyframes: {
+        "wiggle": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.15)" },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 2.5s ease-in-out infinite',
+      }
     },
   },
   plugins: [],
