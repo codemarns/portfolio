@@ -1,6 +1,6 @@
 export const containerStyles = {
   root: {
-    base: "w-full mx-auto text-center space-y-16",
+    base: "w-full mx-auto text-center space-y-16 lg:space-y-20",
     size: {
       sm: "max-w-[640px]",
       md: "max-w-[768px]",

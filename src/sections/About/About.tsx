@@ -3,11 +3,12 @@ import { aboutStyles } from "../../styles";
 
 export const About = () => {
   const id = "about";
-  const { root, description } = aboutStyles;
+  const { root, pattern, container, description } = aboutStyles;
 
   return (
     <Section id={id} className={root.base}>
-      <Container id={id + "_container"} size="lg">
+      <img src={"pattern.svg"} alt="pattern" className={pattern.base} />
+      <Container id={id + "_container"} size="lg" className={container.base}>
         <Title name="About Me" />
 
         <div className={description.wrapper}>
