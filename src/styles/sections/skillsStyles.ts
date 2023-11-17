@@ -11,9 +11,9 @@ export const skillsStyles = {
             base: "space-y-2",
             content: {
               base: "flex items-center justify-between",
-              name: "leading-none font-normal",
+              name: "leading-none",
               level:
-                "leading-none font-thin italic text-sm text-secondary-100 tracking-wider",
+                "leading-none font-thin italic text-sm text-secondary-100",
             },
             ratings: {
               base: "h-1.5 w-full grid grid-cols-5 gap-1.5",
