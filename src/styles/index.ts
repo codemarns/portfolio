@@ -1,5 +1,6 @@
 export { iconStyles } from "./iconStyles";
 export { buttonStyles } from "./buttonStyles";
+export { imageStyles } from "./imageStyles";
 
 export { titleStyles } from "./titleStyles";
 export { sectionStyles } from "./sectionStyles";
