@@ -25,6 +25,10 @@ export const heroStyles = {
         title: {
           base: "text-base xs:text-lg md:text-xl inline-block bg-gradient-to-r from-secondary to-pink-500 bg-clip-text",
         },
+        cta: {
+          link: "inline-block",
+          base: "font-normal tracking-wider"
+        }
       },
     },
   },
