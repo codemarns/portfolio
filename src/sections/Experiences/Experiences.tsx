@@ -46,13 +46,6 @@ export const Experiences = () => {
                         <span className="text-lg font-bold text-secondary leading-tight">
                           {e.company_name}
                         </span>
-                        {e.receive_awards && (
-                          <Icon
-                            name="diamond"
-                            title="Received Certificate of Appreciation"
-                            className="text-xl text-pink-500"
-                          />
-                        )}
                       </div>
                       <div className="inline-block">
                         <span
@@ -63,6 +56,18 @@ export const Experiences = () => {
                         </span>
                       </div>
                     </div>
+                    {e.receive_awards && (
+                      <div className="flex items-center justify-center gap-3 px-6 sm:px-8 py-2 -mx-6 sm:-mx-8 bg-gradient-to-r from-transparent via-secondary-900 to-transparent">
+                        <Icon
+                          name="diamond"
+                          title="Received Certificate of Appreciation"
+                          className="text-xl text-pink-500"
+                        />
+                        <span className="leading-none text-sm text-pink-500 truncate whitespace-nowrap">
+                          Received Certificate of Appreciation
+                        </span>
+                      </div>
+                    )}
                     <ul className="pl-6 space-y-2.5">
                       {e.responsibilities.map((responsibility) => (
                         <li
