@@ -1,11 +1,15 @@
+import { FC } from "react";
 import cn from "classnames";
 import { Container, Icon, Section, Title } from "../../components";
 import { skillsStyles } from "../../styles";
-import { data } from "./data";
+import { SkillsProps } from "./types";
 
-export const Skills = () => {
+export const Skills: FC<SkillsProps> = (props) => {
   const id = "skills";
-  const { hard, soft, others } = data;
+  const { data } = props;
+  const { title, skills } = data;
+  const { hard, soft, others } = skills;
+
   const { root, content } = skillsStyles;
 
   const hard_skills = content.skills.hard.list;
@@ -14,7 +18,7 @@ export const Skills = () => {
   return (
     <Section id={id} className={root.base}>
       <Container id={id + "_container"}>
-        <Title name="Skills" />
+        <Title name={title} />
 
         <div className={hard_skills.base}>
           {hard.map((e) => {
