@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="">
       <Hero data={data.hero} />
-      <About />
+      <About data={data.about} />
       <Skills />
       <Experiences />
       <Contacts />
