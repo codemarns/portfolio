@@ -1,7 +1,12 @@
+import { FC } from "react";
 import { Button, Image } from "../../components";
 import { heroStyles } from "../../styles";
+import { HeroProps } from "./types";
 
-export const Hero = () => {
+export const Hero: FC<HeroProps> = (props) => {
+  const { data } = props;
+  const { img, greeting, name, position, cta } = data;
+
   const { root, container, column } = heroStyles;
 
   return (
@@ -12,30 +17,31 @@ export const Hero = () => {
             width="350px"
             corner="rounded"
             aspectRatio="1:1"
-            thumbnail={""}
-            src={"marnien-cueba.png"}
-            alt={"marnien cueba profile"}
+            alt={img.alt}
+            src={img.url}
+            thumbnail={img.thumbnail}
             className={column.left.image.base}
           />
         </div>
 
         <div className={column.right.base}>
           <div className={column.right.details.base}>
-            <span className={column.right.details.greet.base}>Hi, I am</span>
-            <h1 className={column.right.details.name.base}>Marnien Cueba</h1>
+            <span className={column.right.details.greet.base}>{greeting}</span>
+            <h1 className={column.right.details.name.base}>{name}</h1>
             <p
               className={column.right.details.title.base}
               style={{ WebkitTextFillColor: "transparent" }}
             >
-              UI/UX and Frontend Developer
+              {position}
             </p>
           </div>
-          <a href="#contacts" className="inline-block">
+          <a href={cta} className={column.right.details.cta.link}>
             <Button
               size="xl"
               label="Hire Me"
               color="secondary"
               corner="rounded"
+              className={column.right.details.cta.base}
             />
           </a>
         </div>
