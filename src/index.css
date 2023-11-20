@@ -24,6 +24,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+header {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
 @media screen and (max-height: 734px) {
   #hero {
     @apply !min-h-screen;

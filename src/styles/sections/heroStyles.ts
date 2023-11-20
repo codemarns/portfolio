@@ -1,6 +1,7 @@
 export const heroStyles = {
   root: {
-    base: "min-h-screen lg:min-h-[800px] w-full px-8 py-16 lg:py-20 flex items-center justify-center bg-gradient-to-b from-default-950 from-30% to-secondary-900/50",
+    // min-h-screen
+    base: "lg:min-h-[800px] w-full px-8 py-16 lg:py-20 flex items-center justify-center bg-gradient-to-b from-default-950 from-30% to-secondary-900/50",
   },
   container: {
     base: "h-fit w-full max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-[400px,_1fr] min-[1160px]:grid-cols-[500px,_1fr] xl:grid-cols-2 gap-0 items-center duration-300 ease-out transition-all",
@@ -27,8 +28,8 @@ export const heroStyles = {
         },
         cta: {
           link: "inline-block",
-          base: "font-normal tracking-wider"
-        }
+          base: "font-normal tracking-wider",
+        },
       },
     },
   },
