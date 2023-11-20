@@ -3,7 +3,7 @@ export const data = {
     img: {
       alt: "marnien cueba profile",
       url: "marnien-cueba.png",
-      thumbnail: "",
+      thumbnail: "marnien-cueba.gif",
     },
     greeting: "Hi, I am",
     name: "Marnien Cueba",

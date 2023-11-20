@@ -37,14 +37,9 @@ export const Experiences: FC<ExperienceProps> = (props) => {
                       <span className={experiences.info.company.base}>
                         {e.company_name}
                       </span>
-                      <div className={experiences.info.position.wrapper}>
-                        <span
-                          className={experiences.info.position.base}
-                          style={{ WebkitTextFillColor: "transparent" }}
-                        >
-                          {e.job_position}
-                        </span>
-                      </div>
+                      <span className={experiences.info.position.base}>
+                        {e.job_position}
+                      </span>
                     </div>
 
                     {e.awards.label !== "" && (

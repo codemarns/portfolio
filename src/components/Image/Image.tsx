@@ -53,14 +53,22 @@ export const Image: React.FC<ImageProps> = (props) => {
         style={{ paddingTop: switchAspectRatio }}
       >
         <div
-          className={cn({ [COMPONENT + `__overlay`]: COMPONENT }, overlay.base)}
+          className={cn(
+            { [COMPONENT + `__overlay`]: COMPONENT },
+            overlay.base,
+            overlay.corner[corner]
+          )}
           style={{ backgroundImage: `url(${thumbnail})` }}
         >
           <img
             src={src}
             alt={alt}
             loading="lazy"
-            className={cn({ [COMPONENT + `__img`]: COMPONENT }, img.base)}
+            className={cn(
+              { [COMPONENT + `__img`]: COMPONENT },
+              img.base,
+              img.corner[corner]
+            )}
           />
         </div>
       </div>

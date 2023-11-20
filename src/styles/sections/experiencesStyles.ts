@@ -39,8 +39,7 @@ export const experiencesStyles = {
         base: "text-lg font-bold text-secondary leading-tight",
       },
       position: {
-        wrapper: "inline-block",
-        base: "text-lg leading-tight bg-gradient-to-r from-secondary to-pink-500 bg-clip-text",
+        base: "text-lg leading-tight text-secondary-600",
       },
     },
     award: {
