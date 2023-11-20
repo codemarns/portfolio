@@ -8,7 +8,7 @@ function App() {
       <Hero data={data.hero_section} />
       <About data={data.about_section} />
       <Skills data={data.skills_section} />
-      <Experiences />
+      <Experiences data={data.experiences_section} />
       <Contacts />
       <ScrollToTop />
     </main>
