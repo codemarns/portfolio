@@ -58,10 +58,12 @@ export const Form = () => {
           onChange={onTextAreaChange}
         />
         <Button
+          size="lg"
           type="submit"
+          color="secondary"
           icon="paperplane"
           label="Send Message"
-          color="secondary"
+          className="font-normal"
         />
       </form>
     </div>

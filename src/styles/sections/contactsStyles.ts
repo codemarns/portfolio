@@ -26,7 +26,7 @@ export const contactsStyles = {
     wrapper: "",
     base: "grid grid-cols-1 gap-8 px-4 xs:px-8 py-12 bg-secondary-900/50 rounded-xl shadow-xl",
     heading: {
-      base: "text-2xl",
+      base: "text-2xl font-normal",
     },
     field: {
       base: "outline-none px-6 bg-transparent border border-default-400 hover:border-secondary focus:border-secondary focus:outline focus:outline-4 focus:outline-secondary/10 rounded-xl duration-150 ease-in-out transition-all",
