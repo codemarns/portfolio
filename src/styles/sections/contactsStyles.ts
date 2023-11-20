@@ -29,7 +29,7 @@ export const contactsStyles = {
       base: "text-2xl font-normal",
     },
     field: {
-      base: "outline-none px-6 bg-transparent border border-default-400 hover:border-secondary focus:border-secondary focus:outline focus:outline-4 focus:outline-secondary/10 rounded-xl duration-150 ease-in-out transition-all",
+      base: "outline-none px-4 bg-transparent border border-default-400 hover:border-secondary focus:border-secondary focus:outline focus:outline-4 focus:outline-secondary/10 rounded-md duration-150 ease-in-out transition-all",
       input: "h-12",
       textarea: "h-auto py-2",
     },
