@@ -7,7 +7,7 @@
 }
 
 html {
-  @apply text-base bg-dark text-light;
+  @apply text-base bg-black text-light font-extralight;
 }
 
 /* global css */
