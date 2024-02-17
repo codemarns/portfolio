@@ -3,5 +3,18 @@
 @tailwind utilities;
 
 * {
-  @apply box-border p-0 m-0 select-none;
+  @apply box-border p-0 m-0 select-none scroll-smooth;
+}
+
+html {
+  @apply text-base bg-dark text-light;
+}
+
+/* global css */
+.common-transition {
+  @apply duration-150 ease-in-out transition-all;
+}
+
+.common-spacing {
+  @apply px-4 sm:px-8;
 }
