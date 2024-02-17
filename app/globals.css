@@ -18,3 +18,22 @@ html {
 .common-spacing {
   @apply px-4 sm:px-8;
 }
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-4;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary;
+  background-clip: content-box;
+  border: 4px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary-600;
+}
