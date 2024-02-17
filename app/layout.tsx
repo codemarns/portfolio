@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +16,34 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>
+        <header className="fixed inset-0 !bottom-auto h-16 w-full flex items-center justify-center bg-white border-b">
+          <nav className="flex">
+            <ul className="flex items-center gap-8">
+              <li className="list-none">
+                <Link href={"/"}>Home</Link>
+              </li>
+              <li className="list-none">
+                <Link href={"#about"}>About</Link>
+              </li>
+              <li className="list-none">
+                <Link href={"#experiences"}>Experiences</Link>
+              </li>
+              <li className="list-none">
+                <Link href={"#portfolio"}>Portfolio</Link>
+              </li>
+              <li className="list-none">
+                <Link href={"#skills"}>Skills</Link>
+              </li>
+              <li className="list-none">
+                <Link href={"#contacts"}>Contacts</Link>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
