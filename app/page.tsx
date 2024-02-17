@@ -6,12 +6,13 @@ import {
   Skills,
   Contacts,
 } from "./sections";
+import { data } from "./api/data";
 
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen w-screen">
-        <Hero />
+      <main className="min-h-screen w-full">
+        <Hero data={data?.hero} />
         <About />
         <Experiences />
         <Portfolio />
