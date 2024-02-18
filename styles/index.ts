@@ -1,5 +1,6 @@
 // common
 export { headerStyles } from "./common/headerStyles";
+export { overlayNavStyles } from "./common/overlayNavStyles";
 
 // components
 export { iconStyles } from "./components/iconStyles";
