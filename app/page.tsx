@@ -16,7 +16,7 @@ export default function Home() {
         <About data={data?.about} />
         <Portfolio />
         <Experiences data={data?.experiences} />
-        <Skills />
+        <Skills data={data?.skills} />
         <Contacts />
       </main>
     </>

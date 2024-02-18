@@ -14,3 +14,4 @@ export { titleStyles } from "./components/titleStyles";
 export { heroStyles } from "./sections/heroStyles";
 export { aboutStyles } from "./sections/aboutStyles";
 export { experiencesStyles } from "./sections/experiencesStyles";
+export { skillsStyles } from "./sections/skillsStyles";
