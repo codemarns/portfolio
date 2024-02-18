@@ -4,6 +4,7 @@ import { FC } from "react";
 import { Icon } from "@/components/icon";
 import { contactsStyles } from "@/styles";
 import { DetailProps } from "../types";
+import Link from "next/link";
 
 type Props = {
   data: DetailProps;
@@ -26,13 +27,20 @@ export const Details: FC<Props> = ({ data }) => {
         <span className={details.contacts.title.base}>Follow Me</span>
         <ul className={details.contacts.ul.base}>
           {contacts.map((e) => (
-            <li key={e.id} className={details.contacts.ul.list.base}>
-              <Icon
-                name={e.icon}
-                color="secondary"
-                className={details.contacts.ul.list.icon}
-              />
-            </li>
+            <Link
+              key={e.id}
+              href={e.link}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <li className={details.contacts.ul.list.base}>
+                <Icon
+                  name={e.icon}
+                  color="secondary"
+                  className={details.contacts.ul.list.icon}
+                />
+              </li>
+            </Link>
           ))}
         </ul>
       </div>
