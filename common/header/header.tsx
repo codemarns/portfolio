@@ -17,14 +17,14 @@ export const Header = () => {
       route: "#about",
     },
     {
-      id: "experiences",
-      name: "experiences",
-      route: "#experiences",
-    },
-    {
       id: "portfolio",
       name: "portfolio",
       route: "#portfolio",
+    },
+    {
+      id: "experiences",
+      name: "experiences",
+      route: "#experiences",
     },
     {
       id: "skills",
