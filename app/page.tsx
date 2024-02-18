@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <main className="min-h-screen w-full">
         <Hero data={data?.hero} />
-        <About />
+        <About data={data?.about} />
         <Experiences />
         <Portfolio />
         <Skills />
