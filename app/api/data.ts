@@ -531,4 +531,34 @@ export const data = {
       ],
     },
   },
+  contacts: {
+    title: "Contacts",
+    details: {
+      heading: [`Let's chat`, "and discuss your project."],
+      text: "Will turn your dreams into reality.",
+      contacts: [
+        {
+          id: "facebook",
+          icon: "facebook",
+          link: "https://www.facebook.com/codemarns",
+        },
+        {
+          id: "youtube",
+          icon: "youtube-play",
+          link: "https://www.youtube.com/@codemarns",
+        },
+        {
+          id: "linkedin",
+          icon: "linkedin",
+          link: "https://www.linkedin.com/in/marnien-cueba-96a419200/",
+        },
+        {
+          id: "github",
+          icon: "github",
+          link: "https://github.com/codemarns",
+        },
+      ],
+    },
+    form: {},
+  },
 };

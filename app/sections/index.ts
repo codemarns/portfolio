@@ -3,4 +3,4 @@ export { About } from "./about/about";
 export { Portfolio } from "./portfolio";
 export { Experiences } from "./experiences/experiences";
 export { Skills } from "./skills/skills";
-export { Contacts } from "./contacts";
+export { Contacts } from "./contacts/contacts";

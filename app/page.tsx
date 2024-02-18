@@ -17,7 +17,7 @@ export default function Home() {
         <Portfolio />
         <Experiences data={data?.experiences} />
         <Skills data={data?.skills} />
-        <Contacts />
+        <Contacts data={data?.contacts} />
       </main>
     </>
   );
