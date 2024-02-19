@@ -14,7 +14,7 @@ export default function Home() {
       <main className="min-h-screen w-full">
         <Hero data={data?.hero} />
         <About data={data?.about} />
-        <Portfolio />
+        <Portfolio data={data?.portfolio} />
         <Experiences data={data?.experiences} />
         <Skills data={data?.skills} />
         <Contacts data={data?.contacts} />

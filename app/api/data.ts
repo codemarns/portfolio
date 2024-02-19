@@ -20,6 +20,38 @@ export const data = {
       `I am a collaborative and creative designer and developer with experience in Figma, HTML, CSS, React, TypeScript, and other front-end frameworks such as Next.js. I create dynamic and responsive user interfaces that give excellent user experiences.`,
     ],
   },
+  portfolio: {
+    title: "Portfolio",
+    portfolio: [
+      {
+        id: "23point5",
+        alt: "23point5 logo",
+        img: "/23point5_logo.svg",
+        title: "23point5",
+        description:
+          "The only platform that allows you to create designs never possible before and instantly sell them in your store with $0 startup costs.",
+        link: "https://www.23point5.com/",
+      },
+      {
+        id: "airbands",
+        alt: "airbands logo",
+        img: "/airbands-logo.png",
+        title: "AIRBANDS",
+        description:
+          "Leverages the benefits of blood flow restriction (BFR) to reduce the time and intensity required to build muscle and increase strength.",
+        link: "https://airbandsbfr.com/",
+      },
+      {
+        id: "prestige",
+        alt: "prestige-logo",
+        img: "/prestige-logo.png",
+        title: "Prestige by Filinvest",
+        description:
+          "A place where exclusive living meets timeless value. Explore exquisite adventures through heirloom properties reserved for a discerning few.",
+        link: "https://fli-prestige.stagingurls.com/",
+      },
+    ],
+  },
   experiences: {
     title: "Experiences",
     experiences: [
