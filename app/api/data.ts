@@ -27,6 +27,7 @@ export const data = {
         id: "23point5",
         alt: "23point5 logo",
         img: "/23point5_logo.svg",
+        tag: "Website",
         title: "23point5",
         description:
           "The only platform that allows you to create designs never possible before and instantly sell them in your store with $0 startup costs.",
@@ -36,6 +37,7 @@ export const data = {
         id: "airbands",
         alt: "airbands logo",
         img: "/airbands-logo.png",
+        tag: "Website",
         title: "AIRBANDS",
         description:
           "Leverages the benefits of blood flow restriction (BFR) to reduce the time and intensity required to build muscle and increase strength.",
@@ -45,10 +47,31 @@ export const data = {
         id: "prestige",
         alt: "prestige-logo",
         img: "/prestige-logo.png",
+        tag: "Website",
         title: "Prestige by Filinvest",
         description:
           "A place where exclusive living meets timeless value. Explore exquisite adventures through heirloom properties reserved for a discerning few.",
         link: "https://fli-prestige.stagingurls.com/",
+      },
+      {
+        id: "easy-rent",
+        alt: "easy-rent-logo",
+        img: "/easy-rent.png",
+        tag: "Figma",
+        title: "Easy Rent by Marnien Cueba",
+        description:
+          "A platform that specialize in connecting travelers and vacation seekers with the ideal rental properties to suit their needs and desires.",
+        link: "https://www.figma.com/proto/X6LRdqfEVe0XmMPPHgnDCE/Project-1?type=design&node-id=58-8&t=v55A81y6NNfmcnaO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=58%3A8",
+      },
+      {
+        id: "landchecker",
+        alt: "landchecker-logo",
+        img: "/landchecker.svg",
+        tag: "Figma",
+        title: "Landchecker",
+        description:
+          `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
+        link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
       },
     ],
   },

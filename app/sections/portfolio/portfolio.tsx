@@ -35,7 +35,10 @@ export const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
                 />
               </div>
               <div className="h-auto w-full p-6 text-left space-y-3">
-                <span className="text-xl text-secondary">{item.title}</span>
+                <span className="block text-xl text-secondary font-normal">
+                  {item.title}
+                </span>
+                <span className="block text-sm text-secondary">{item.tag}</span>
                 <p className="leading-relaxed !mb-3 line-clamp-4">
                   {item.description}
                 </p>
