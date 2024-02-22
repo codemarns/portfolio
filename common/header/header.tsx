@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Scroll } from "@/components/scroll";
 import { headerStyles } from "@/styles";
 import { OverlayNav } from "./overlayNav";
 import { BurgerMenu } from "./burgerMenu";
@@ -66,6 +67,8 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
+
+        <Scroll />
       </header>
 
       <OverlayNav

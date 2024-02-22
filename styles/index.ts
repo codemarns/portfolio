@@ -9,6 +9,7 @@ export { iconStyles } from "./components/iconStyles";
 export { buttonStyles } from "./components/buttonStyles";
 export { imageStyles } from "./components/imageStyles";
 export { titleStyles } from "./components/titleStyles";
+export { scrollStyles } from "./components/scrollStyles";
 
 // sections
 export { heroStyles } from "./sections/heroStyles";

@@ -29,3 +29,25 @@ export const useElementDimensions = (ref: React.RefObject<any>) => {
 
   return dimensions;
 };
+
+export const useScrollProgress = () => {
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const updateScrollProgress = () => {
+      const currentProgress = window.scrollY;
+      const scrollHeight = document.body.scrollHeight - window.innerHeight;
+
+      if (scrollHeight) {
+        setProgress(Number((currentProgress / scrollHeight).toFixed(2)) * 100);
+      }
+    };
+
+    window.addEventListener("scroll", updateScrollProgress);
+    return () => {
+      window.removeEventListener("scroll", updateScrollProgress);
+    };
+  }, [progress]);
+
+  return progress;
+};
