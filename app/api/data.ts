@@ -595,7 +595,7 @@ export const data = {
         {
           id: "facebook",
           icon: "facebook",
-          link: "https://www.facebook.com/codemarns",
+          link: "https://www.facebook.com/marniencueba",
         },
         {
           id: "youtube",
