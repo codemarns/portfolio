@@ -8,12 +8,11 @@ export const skillsStyles = {
         list: {
           base: "grid grid-cols-[repeat(auto-fill,_minmax(240px,_1fr))] gap-12",
           item: {
-            base: "space-y-2",
+            base: "space-y-3",
             content: {
               base: "flex items-center justify-between",
               name: "leading-none",
-              level:
-                "leading-none font-thin italic text-sm text-secondary-100",
+              level: "leading-none font-thin italic text-sm text-secondary-100",
             },
             ratings: {
               base: "h-1.5 w-full grid grid-cols-5 gap-1.5",
@@ -40,7 +39,7 @@ export const skillsStyles = {
           item: {
             base: "grid grid-cols-[auto,_1fr] gap-3 items-center",
             icon: "text-2xl",
-            name: "text-left capitalize",
+            name: "text-left",
           },
         },
       },
