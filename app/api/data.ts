@@ -419,6 +419,12 @@ export const data = {
           ratings: 2,
         },
         {
+          id: "storybook",
+          name: "Storybook",
+          level: "proficient",
+          ratings: 4,
+        },
+        {
           id: "turbo-repo",
           name: "Turborepo",
           level: "advanced beginner",
