@@ -403,31 +403,37 @@ export const data = {
         {
           id: "vite-js",
           name: "Vite JS",
-          level: "beginner",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
           id: "angular",
           name: "Angular",
-          level: "beginner",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
           id: "react-native",
-          name: "Reac Native",
-          level: "beginner",
+          name: "React Native",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
           id: "turbo-repo",
           name: "Turborepo",
-          level: "beginner",
+          level: "advanced beginner",
+          ratings: 2,
+        },
+        {
+          id: "rest-api",
+          name: "Rest API",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
           id: "jest",
           name: "Jest",
-          level: "beginner",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
@@ -439,7 +445,7 @@ export const data = {
         {
           id: "adode-xd",
           name: "Adode XD",
-          level: "beginner",
+          level: "advanced beginner",
           ratings: 2,
         },
         {
