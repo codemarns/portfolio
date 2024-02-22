@@ -63,6 +63,15 @@ export const data = {
           "A platform that specialize in connecting travelers and vacation seekers with the ideal rental properties to suit their needs and desires.",
         link: "https://www.figma.com/proto/X6LRdqfEVe0XmMPPHgnDCE/Project-1?type=design&node-id=58-8&t=v55A81y6NNfmcnaO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=58%3A8",
       },
+      {
+        id: "design-system",
+        alt: "codemarns-logo",
+        img: "/mc-logo.svg",
+        tag: "Figma",
+        title: "Design System",
+        description: `This is my own design system created a while ago. It represents the color combination and how it applies to all components especially in Buttons.`,
+        link: "https://www.figma.com/proto/QYqFJz2e7KFen1PcVeqpoU/Components?type=design&node-id=7-5&t=tbVTGbJZuJnFUaiY-0&scaling=min-zoom&page-id=0%3A1",
+      },
       // {
       //   id: "landchecker",
       //   alt: "landchecker-logo",
