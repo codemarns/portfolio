@@ -63,16 +63,16 @@ export const data = {
           "A platform that specialize in connecting travelers and vacation seekers with the ideal rental properties to suit their needs and desires.",
         link: "https://www.figma.com/proto/X6LRdqfEVe0XmMPPHgnDCE/Project-1?type=design&node-id=58-8&t=v55A81y6NNfmcnaO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=58%3A8",
       },
-      {
-        id: "landchecker",
-        alt: "landchecker-logo",
-        img: "/landchecker.svg",
-        tag: "Figma",
-        title: "Landchecker",
-        description:
-          `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
-        link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
-      },
+      // {
+      //   id: "landchecker",
+      //   alt: "landchecker-logo",
+      //   img: "/landchecker.svg",
+      //   tag: "Figma",
+      //   title: "Landchecker",
+      //   description:
+      //     `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
+      //   link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
+      // },
     ],
   },
   experiences: {
