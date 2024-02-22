@@ -344,22 +344,10 @@ export const data = {
           ratings: 5,
         },
         {
-          id: "javascript",
-          name: "Javascript",
-          level: "intermediate",
-          ratings: 3,
-        },
-        {
-          id: "typescript",
-          name: "Typescript",
-          level: "intermediate",
-          ratings: 3,
-        },
-        {
           id: "tailwind-css",
           name: "Tailwind CSS",
-          level: "proficient",
-          ratings: 4,
+          level: "expert",
+          ratings: 5,
         },
         {
           id: "styled-components",
@@ -380,8 +368,26 @@ export const data = {
           ratings: 3,
         },
         {
+          id: "javascript",
+          name: "Javascript",
+          level: "intermediate",
+          ratings: 3,
+        },
+        {
+          id: "typescript",
+          name: "Typescript",
+          level: "intermediate",
+          ratings: 3,
+        },
+        {
           id: "react",
           name: "React",
+          level: "intermediate",
+          ratings: 3,
+        },
+        {
+          id: "next-js",
+          name: "Next JS",
           level: "intermediate",
           ratings: 3,
         },
@@ -392,20 +398,38 @@ export const data = {
           ratings: 2,
         },
         {
-          id: "next-js",
-          name: "Next JS",
-          level: "beginner",
-          ratings: 2,
-        },
-        {
           id: "angular",
           name: "Angular",
           level: "beginner",
           ratings: 2,
         },
         {
+          id: "react-native",
+          name: "Reac Native",
+          level: "beginner",
+          ratings: 2,
+        },
+        {
           id: "turbo-repo",
           name: "Turborepo",
+          level: "beginner",
+          ratings: 2,
+        },
+        {
+          id: "jest",
+          name: "Jest",
+          level: "beginner",
+          ratings: 2,
+        },
+        {
+          id: "figma",
+          name: "Figma",
+          level: "intermediate",
+          ratings: 3,
+        },
+        {
+          id: "adode-xd",
+          name: "Adode XD",
           level: "beginner",
           ratings: 2,
         },
@@ -422,18 +446,6 @@ export const data = {
           ratings: 3,
         },
         {
-          id: "adode-xd",
-          name: "Adode XD",
-          level: "beginner",
-          ratings: 2,
-        },
-        {
-          id: "figma",
-          name: "Figma",
-          level: "intermediate",
-          ratings: 3,
-        },
-        {
           id: "mockflow",
           name: "Mockflow",
           level: "intermediate",
@@ -442,7 +454,7 @@ export const data = {
         {
           id: "gimp",
           name: "Gimp",
-          level: "Proficient",
+          level: "proficient",
           ratings: 4,
         },
         {
@@ -455,7 +467,7 @@ export const data = {
       others: [
         {
           id: "git",
-          name: "git",
+          name: "Git",
         },
         {
           id: "gitlab",
@@ -471,7 +483,7 @@ export const data = {
         },
         {
           id: "yarn",
-          name: "yarn",
+          name: "Yarn",
         },
         {
           id: "vs-code",
@@ -479,27 +491,27 @@ export const data = {
         },
         {
           id: "sublime-text",
-          name: "sublime text",
+          name: "Sublime Text",
         },
         {
           id: "ring-central",
-          name: "ring central",
+          name: "Ring Central",
         },
         {
           id: "azure-boards",
-          name: "azure boards",
+          name: "Azure Boards",
         },
         {
           id: "slack",
-          name: "slack",
+          name: "Slack",
         },
         {
           id: "miro",
-          name: "miro",
+          name: "Miro",
         },
         {
-          id: "zoom",
-          name: "zoom",
+          id: "draw-io",
+          name: "Draw.io",
         },
       ],
       soft: [
