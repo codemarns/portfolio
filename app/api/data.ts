@@ -451,8 +451,8 @@ export const data = {
         {
           id: "adode-xd",
           name: "Adode XD",
-          level: "advanced beginner",
-          ratings: 2,
+          level: "intermediate",
+          ratings: 3,
         },
         {
           id: "adode-photoshop",
