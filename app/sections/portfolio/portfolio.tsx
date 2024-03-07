@@ -21,7 +21,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
               key={index}
               className="h-auto flex-1 bg-secondary/5 border border-secondary/10 rounded-xl overflow-hidden"
             >
-              <div className="h-[200px] w-full p-6 bg-darker flex items-center justify-center">
+              <div className="h-[200px] w-full p-16 bg-darker flex items-center justify-center">
                 <Image
                   priority
                   width={450}
