@@ -61,7 +61,7 @@ export const data = {
         title: "Easy Rent by Marnien Cueba",
         description:
           "A platform that specialize in connecting travelers and vacation seekers with the ideal rental properties to suit their needs and desires.",
-        link: "https://www.figma.com/proto/X6LRdqfEVe0XmMPPHgnDCE/Project-1?type=design&node-id=58-8&t=v55A81y6NNfmcnaO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=58%3A8",
+        link: "https://www.figma.com/proto/X6LRdqfEVe0XmMPPHgnDCE/Easy-Rent?type=design&node-id=58-8&t=QyzUMocH6GWI3ORh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=58%3A8",
       },
       {
         id: "design-system",
@@ -72,16 +72,24 @@ export const data = {
         description: `This is my own design system created a while ago. It represents the color combination and how it applies to all components especially in Buttons.`,
         link: "https://www.figma.com/proto/QYqFJz2e7KFen1PcVeqpoU/Components?type=design&node-id=7-5&t=tbVTGbJZuJnFUaiY-0&scaling=min-zoom&page-id=0%3A1",
       },
-      // {
-      //   id: "landchecker",
-      //   alt: "landchecker-logo",
-      //   img: "/landchecker.svg",
-      //   tag: "Figma",
-      //   title: "Landchecker",
-      //   description:
-      //     `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
-      //   link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
-      // },
+      {
+        id: "landchecker",
+        alt: "landchecker-logo",
+        img: "/landchecker.svg",
+        tag: "Figma",
+        title: "Landchecker",
+        description: `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
+        link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
+      },
+      {
+        id: "startupz",
+        alt: "startupz-logo",
+        img: "/startupz-logo.png",
+        tag: "Figma",
+        title: "Startupz",
+        description: `This is my rebranding design of Startupz. A platform that operate as a dynamic and innovative startup studio, specializing in the comprehensive process of conceiving, developing, and successfully launching pioneering new companies into the market.`,
+        link: "https://www.figma.com/proto/os2br0vvCo2yxjEyBIH13t/Startupz?type=design&node-id=82-2663&t=DKCNdw6ss4q7bK8C-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2",
+      },
     ],
   },
   experiences: {
