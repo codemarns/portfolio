@@ -631,7 +631,7 @@ export const data = {
     title: "Contacts",
     details: {
       heading: [`Let's chat`, "and discuss your project."],
-      text: "Will turn your dreams into reality.",
+      text: "Will turn your corporate aspirations into measurable achievements.",
       contacts: [
         {
           id: "facebook",
