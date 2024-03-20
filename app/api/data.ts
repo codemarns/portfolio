@@ -23,16 +23,16 @@ export const data = {
   portfolio: {
     title: "Portfolio",
     portfolio: [
-      {
-        id: "23point5",
-        alt: "23point5 logo",
-        img: "/23point5_logo.svg",
-        tag: "Website",
-        title: "23point5",
-        description:
-          "The only platform that allows you to create designs never possible before and instantly sell them in your store with $0 startup costs.",
-        link: "https://www.23point5.com/",
-      },
+      // {
+      //   id: "23point5",
+      //   alt: "23point5 logo",
+      //   img: "/23point5_logo.svg",
+      //   tag: "Website",
+      //   title: "23point5",
+      //   description:
+      //     "The only platform that allows you to create designs never possible before and instantly sell them in your store with $0 startup costs.",
+      //   link: "https://www.23point5.com/",
+      // },
       {
         id: "airbands",
         alt: "airbands logo",
