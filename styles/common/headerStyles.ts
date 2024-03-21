@@ -10,7 +10,7 @@ export const headerStyles = {
     image: "",
   },
   nav: {
-    base: "flex hidden md:block",
+    base: "flex hidden lg:block",
     ul: {
       base: "flex items-center gap-8",
       li: {

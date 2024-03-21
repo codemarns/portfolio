@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Scroll } from "@/components/scroll";
+import { Download } from "@/components/download";
 import { headerStyles } from "@/styles";
 import { OverlayNav } from "./overlayNav";
 import { BurgerMenu } from "./burgerMenu";
@@ -66,6 +67,8 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
+
+          <Download size="md" className="hidden lg:flex" />
         </div>
 
         <Scroll />

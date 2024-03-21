@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import Link from "next/link";
+import { Download } from "@/components/download";
 import { overlayNavStyles } from "@/styles";
 import { HeaderCommonProps } from "./types";
 
@@ -41,6 +42,8 @@ export const OverlayNav: React.FC<OverlayNavProps> = ({
           </li>
         ))}
       </ul>
+
+      <Download size="lg" className="flex lg:hidden" />
     </nav>
   );
 };

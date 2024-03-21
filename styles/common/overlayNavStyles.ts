@@ -1,6 +1,6 @@
 export const overlayNavStyles = {
   root: {
-    base: "fixed inset-0 z-20 h-full w-full p-8 bg-black/90 flex items-center justify-center ease-in-out duration-500 transition-all",
+    base: "fixed inset-0 z-20 h-full w-full p-8 bg-black/90 flex flex-col items-center justify-center gap-4 ease-in-out duration-500 transition-all",
     position: {
       display: "!left-0 visible opacity-100",
       hide: "!left-full invisible opacity-0",
