@@ -96,12 +96,100 @@ export const data = {
     title: "Experiences",
     experiences: [
       {
+        id: "ui-uiux-frontend-developer",
+        company_name: "Unakayo Inc.",
+        company_address: "San Diego, CA",
+        job_position: "UI/UX & Frontend Developer (Freelance)",
+        job_start: "April 2024",
+        job_end: "Present",
+        awards: {
+          label: "",
+          img: "",
+        },
+        responsibilities: [
+          {
+            id: "res-1",
+            description: "Redesign old Unakayo landing page design to modern design trends.",
+          },
+          {
+            id: "res-2",
+            description: "Design an admin portal application for Unakayo.",
+          },
+          {
+            id: "res-3",
+            description: "Gather requirements based on client discussion.",
+          },
+          {
+            id: "res-4",
+            description: "Create wireframes, sitemaps, process flows, low and high fidelity mockups, and prototypes of the project.",
+          },
+          {
+            id: "res-5",
+            description: "Do research for additional information needed to complete the design.",
+          },
+          {
+            id: "res-6",
+            description: "Gather feedback to improve the design.",
+          },
+          {
+            id: "res-7",
+            description: "Perform UI/UX.",
+          },
+          {
+            id: "res-8",
+            description: "Convert designs into code.",
+          }
+        ]
+      },
+      {
+        id: "gf-uiux-frontend-developer",
+        company_name: "Good Folks",
+        company_address: "Sweden",
+        job_position: "UI/UX & Frontend Developer (Freelance)",
+        job_start: "April 2024",
+        job_end: "Present",
+        awards: {
+          label: "",
+          img: "",
+        },
+        responsibilities: [
+          {
+            id: "res-1",
+            description: "Gather requirements based on client discussion.",
+          },
+          {
+            id: "res-2",
+            description: "Create wireframes, sitemaps, process flows, low and high fidelity mockups, and prototypes of the project.",
+          },
+          {
+            id: "res-3",
+            description: "Do research for additional information needed to complete the design.",
+          },
+          {
+            id: "res-4",
+            description: "Gather feedback to improve the design.",
+          },
+          {
+            id: "res-5",
+            description: "Perform UI/UX.",
+          },
+          {
+            id: "res-6",
+            description: "Convert designs into code.",
+          },
+          {
+            id: "res-7",
+            description: "Participate in other tasks related to frontend development.",
+          },
+        ],
+      },
+      {
         id: "pi-frontend-developer",
         company_name: "Projectgrey Inc.",
         company_address: "Pasig City, Metro Manila",
         job_position: "Frontend Developer (Freelance)",
         job_start: "November 2023",
-        job_end: "November 2023",
+        job_end: "Present",
         awards: {
           label: "",
           img: "",
@@ -110,20 +198,25 @@ export const data = {
           {
             id: "res-1",
             description:
-              "Established design guidelines, standards and best practices.",
+              "Fixed existing issues and improved designs based on client needs and requirements.",
           },
           {
             id: "res-2",
             description:
-              "Designed and developed new features based on client specifications.",
+              "Established design guidelines, standards and best practices.",
           },
           {
             id: "res-3",
             description:
-              "Took responsibility for responsiveness on both web and mobile pages and designs.",
+              "Designed and developed new features based on client specifications.",
           },
           {
             id: "res-4",
+            description:
+              "Took responsibility for responsiveness on both web and mobile pages and designs.",
+          },
+          {
+            id: "res-5",
             description: "Integrate CMS data to some static pages.",
           },
         ],
