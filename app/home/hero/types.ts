@@ -4,14 +4,16 @@ type ImageProps = {
   thumbnail: string;
 };
 
-type DataProps = {
+type ContentProps = {
   img: ImageProps;
   greeting: string;
   name: string;
   position: string;
   cta: string;
-};
+}
 
 export type HeroProps = {
-  data: DataProps;
+  id: string;
+  title: string;
+  content: ContentProps
 };

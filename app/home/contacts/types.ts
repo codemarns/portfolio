@@ -12,12 +12,13 @@ export type DetailProps = {
   contacts: ContactProps[];
 };
 
-type Data = {
-  title: string;
+type ContentProps = {
   details: DetailProps;
   form: FormProps;
 };
 
 export type ContactsProps = {
-  data: Data;
+  id: string;
+  title: string;
+  content: ContentProps;
 };

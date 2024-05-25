@@ -9,14 +9,14 @@ import { heroStyles } from "@/styles";
 import { HeroProps } from "./types";
 
 export const Hero: React.FC<HeroProps> = (props) => {
-  const { data } = props;
-  const { img, greeting, name, position, cta } = data;
+  const { id, title, content } = props;
+  const { img, greeting, name, position, cta } = content;
 
   const { root, container, column } = heroStyles;
 
   return (
-    <StyledHero id="hero" className={root.base}>
-      <div id="hero-container" className={container.base}>
+    <StyledHero id={id} className={root.base}>
+      <div id={id + "-container"} className={container.base}>
         <div className={column.left.base}>
           <Image
             width="350px"

@@ -19,11 +19,12 @@ type Data = {
   responsibilities: Responsibility[];
 };
 
-type Props = {
-  title: string;
+type ContentProps = {
   experiences: Data[];
-};
+}
 
 export type ExperienceProps = {
-  data: Props;
+  id: string;
+  title: string;
+  content: ContentProps
 };

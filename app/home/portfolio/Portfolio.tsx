@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import cn from "classnames";
 import Link from "next/link";
@@ -7,16 +9,17 @@ import { Section } from "@/common/section";
 import { Container } from "@/common/container";
 import { PortfolioProps } from "./types";
 
-export const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
-  const id = "portfolio";
+export const Portfolio: React.FC<PortfolioProps> = (props) => {
+  const { id, title, content } = props;
+  const { portfolio } = content;
 
   return (
     <Section id={id} className="bg-darker">
-      <Container id={id + "_container"}>
-        <Title name={data?.title} />
+      <Container id={id + "-container"}>
+        <Title name={title} />
 
         <div className="grid grid-cols-1 xs:grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] gap-12">
-          {data?.portfolio.map((item, index) => (
+          {portfolio.map((item, index) => (
             <div
               key={index}
               className="h-auto flex-1 bg-secondary/5 border border-secondary/10 rounded-xl overflow-hidden"
