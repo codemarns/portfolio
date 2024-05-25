@@ -68,7 +68,7 @@ export const Header = () => {
             </ul>
           </nav>
 
-          <Download size="md" className="hidden lg:flex" />
+          <Download className="hidden lg:flex" />
         </div>
 
         <Scroll />

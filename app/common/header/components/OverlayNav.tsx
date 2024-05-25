@@ -43,7 +43,7 @@ export const OverlayNav: React.FC<OverlayNavProps> = ({
         ))}
       </ul>
 
-      <Download size="lg" className="flex lg:hidden" />
+      <Download className="flex lg:hidden" />
     </nav>
   );
 };
