@@ -2,11 +2,11 @@
 
 import React from "react";
 import cn from "classnames";
-import { Icon } from "@/components/icon";
-import { Title } from "@/components/title";
-import { Section } from "@/common/section";
-import { Container } from "@/common/container";
-import { skillsStyles } from "@/styles";
+import { Icon } from "@/app/components/Icon";
+import { Title } from "@/app/components/Title";
+import { Section } from "@/app/common/section";
+import { Container } from "@/app/common/container";
+import { skillsStyles } from "@/app/styles";
 import { SkillsProps } from "./types";
 
 export const Skills: React.FC<SkillsProps> = (props) => {

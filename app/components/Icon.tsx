@@ -2,8 +2,8 @@
 
 import React from "react";
 import cn from "classnames";
-import { ColorEnum } from "@/utils/enum";
-import { iconStyles } from "@/styles";
+import { ColorEnum } from "@/app/utils/enum";
+import { iconStyles } from "@/app/styles";
 
 type TIconProps = {
   className?: string;

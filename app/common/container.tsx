@@ -1,6 +1,6 @@
 import React from "react";
 import cn from "classnames";
-import { containerStyles } from "@/styles";
+import { containerStyles } from "@/app/styles";
 
 type Props = {
   id: string;

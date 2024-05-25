@@ -1,8 +1,8 @@
 import React from "react";
 import cn from "classnames";
 import Link from "next/link";
-import { Download } from "@/components/download";
-import { overlayNavStyles } from "@/styles";
+import { Download } from "@/app/components/Download";
+import { overlayNavStyles } from "@/app/styles";
 import { HeaderCommonProps } from "./types";
 
 type ItemProps = {

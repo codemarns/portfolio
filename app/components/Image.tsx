@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useMemo } from "react";
 import cn from "classnames";
-import { imageStyles } from "@/styles";
+import { imageStyles } from "@/app/styles";
 
 export type ImageProps = React.HTMLAttributes<HTMLImageElement> & {
   alt: string;

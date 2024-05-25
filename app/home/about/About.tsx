@@ -2,10 +2,10 @@
 
 import React from "react";
 import Image from "next/image";
-import { Title } from "@/components/title";
-import { Section } from "@/common/section";
-import { Container } from "@/common/container";
-import { aboutStyles } from "@/styles";
+import { Title } from "@/app/components/Title";
+import { Section } from "@/app/common/section";
+import { Container } from "@/app/common/container";
+import { aboutStyles } from "@/app/styles";
 import { AboutProps } from "./types";
 
 export const About: React.FC<AboutProps> = (props) => {

@@ -1,6 +1,6 @@
 import React from "react";
-import { useScrollProgress } from "@/hooks/hooks";
-import { scrollStyles } from "@/styles";
+import { useScrollProgress } from "@/app/hooks/hooks";
+import { scrollStyles } from "@/app/styles";
 
 export const Scroll = () => {
   const { root } = scrollStyles;

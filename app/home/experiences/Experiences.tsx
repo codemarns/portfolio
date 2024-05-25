@@ -1,11 +1,11 @@
 "use client";
 
 import { FC } from "react";
-import { Icon } from "@/components/icon";
-import { Title } from "@/components/title";
-import { Section } from "@/common/section";
-import { Container } from "@/common/container";
-import { experiencesStyles } from "@/styles";
+import { Icon } from "@/app/components/Icon";
+import { Title } from "@/app/components/Title";
+import { Section } from "@/app/common/section";
+import { Container } from "@/app/common/container";
+import { experiencesStyles } from "@/app/styles";
 import { ExperienceProps } from "./types";
 
 export const Experiences: FC<ExperienceProps> = (props) => {

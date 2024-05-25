@@ -1,6 +1,6 @@
 import React from "react";
 import cn from "classnames";
-import { Button } from "@/components/button";
+import { Button } from "@/app/components/Button";
 import { HeaderCommonProps } from "./types";
 
 type BurgerMenuProps = HeaderCommonProps;

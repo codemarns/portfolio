@@ -1,8 +1,8 @@
 "use client";
 
 import { FC } from "react";
-import { Icon } from "@/components/icon";
-import { contactsStyles } from "@/styles";
+import { Icon } from "@/app/components/Icon";
+import { contactsStyles } from "@/app/styles";
 import { DetailProps } from "../types";
 import Link from "next/link";
 

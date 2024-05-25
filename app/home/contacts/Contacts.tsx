@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { contactsStyles } from "@/styles";
-import { Title } from "@/components/title";
-import { Section } from "@/common/section";
-import { Container } from "@/common/container";
+import { contactsStyles } from "@/app/styles";
+import { Title } from "@/app/components/Title";
+import { Section } from "@/app/common/section";
+import { Container } from "@/app/common/container";
 import { Details } from "./components/details";
 import { Form } from "./components/form";
 import { ContactsProps } from "./types";

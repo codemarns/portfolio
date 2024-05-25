@@ -3,9 +3,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Scroll } from "@/components/scroll";
-import { Download } from "@/components/download";
-import { headerStyles } from "@/styles";
+import { Scroll } from "@/app/components/Scroll";
+import { Download } from "@/app/components/Download";
+import { headerStyles } from "@/app/styles";
 import { OverlayNav } from "./overlayNav";
 import { BurgerMenu } from "./burgerMenu";
 

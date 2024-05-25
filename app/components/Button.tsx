@@ -2,9 +2,9 @@
 
 import React from "react";
 import cn from "classnames";
-import { buttonStyles } from "@/styles";
-import { DefaultColorEnum } from "@/utils/enum";
-import { Icon } from "./icon";
+import { buttonStyles } from "@/app/styles";
+import { DefaultColorEnum } from "@/app/utils/enum";
+import { Icon } from "./Icon";
 
 type TButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   icon?: string;

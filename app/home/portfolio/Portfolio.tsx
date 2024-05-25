@@ -4,9 +4,9 @@ import React from "react";
 import cn from "classnames";
 import Link from "next/link";
 import Image from "next/image";
-import { Title } from "@/components/title";
-import { Section } from "@/common/section";
-import { Container } from "@/common/container";
+import { Title } from "@/app/components/Title";
+import { Section } from "@/app/common/section";
+import { Container } from "@/app/common/container";
 import { PortfolioProps } from "./types";
 
 export const Portfolio: React.FC<PortfolioProps> = (props) => {

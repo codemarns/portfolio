@@ -2,8 +2,8 @@
 
 import cn from "classnames";
 import React, { useState } from "react";
-import { Button } from "@/components/button";
-import { contactsStyles } from "@/styles";
+import { Button } from "@/app/components/Button";
+import { contactsStyles } from "@/app/styles";
 import { FormProps } from "../types";
 
 type Props = {

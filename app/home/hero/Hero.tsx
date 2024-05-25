@@ -3,9 +3,9 @@
 import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
-import { Image } from "@/components/image";
-import { Button } from "@/components/button";
-import { heroStyles } from "@/styles";
+import { Image } from "@/app/components/Image";
+import { Button } from "@/app/components/Button";
+import { heroStyles } from "@/app/styles";
 import { HeroProps } from "./types";
 
 export const Hero: React.FC<HeroProps> = (props) => {

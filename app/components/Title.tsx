@@ -1,6 +1,6 @@
 import React from "react";
 import cn from "classnames";
-import { titleStyles } from "@/styles";
+import { titleStyles } from "@/app/styles";
 
 type Props = {
   name?: string;

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Loading } from "@/components/Loading";
-import { Header } from "@/common/header/header";
-import { Footer } from "@/common/footer";
+import { Loading } from "@/app/components/Loading";
+import { Header } from "@/app/common/header/header";
+import { Footer } from "@/app/common/footer";
 import { data } from "@/app/api/data";
 import { Client } from "./home/Client";
 
