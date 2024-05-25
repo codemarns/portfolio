@@ -9,14 +9,13 @@ import { experiencesStyles } from "@/styles";
 import { ExperienceProps } from "./types";
 
 export const Experiences: FC<ExperienceProps> = (props) => {
-  const { data } = props;
-  const id = "experiences";
+  const { id, title, content: pageContent } = props;
   const { root, content, trophy, experiences } = experiencesStyles;
 
   return (
     <Section id={id} className={root.base}>
-      <Container id={id + "_container"}>
-        <Title name={data.title} />
+      <Container id={id + "-container"}>
+        <Title name={title} />
 
         <div className={content.base}>
           <div className={trophy.rope.base}>
@@ -31,7 +30,7 @@ export const Experiences: FC<ExperienceProps> = (props) => {
           </div>
 
           <div className={experiences.base}>
-            {data.experiences.map((e) => (
+            {pageContent.experiences.map((e) => (
               <div key={e.id} className={experiences.row.base}>
                 <div className={experiences.slot.base}>
                   <div className={experiences.container.base}>

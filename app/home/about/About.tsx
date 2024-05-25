@@ -9,26 +9,16 @@ import { aboutStyles } from "@/styles";
 import { AboutProps } from "./types";
 
 export const About: React.FC<AboutProps> = (props) => {
-  const id = "about";
-  const { data } = props;
-  const { root, pattern, container, description } = aboutStyles;
+  const { id, title, content } = props;
+
+  const { root, container, description } = aboutStyles;
 
   return (
     <Section id={id} className={root.base}>
-      {data.pattern && (
-        <Image
-          width={1920}
-          height={480}
-          alt="pattern"
-          src={data.pattern}
-          className={pattern.base}
-        />
-      )}
-      <Container id={id + "_container"} size="lg" className={container.base}>
-        <Title name={data.title} />
-
+      <Container id={id + "-container"} className={container.base} size="lg">
+        <Title name={title} />
         <div className={description.wrapper}>
-          {data.description.map((desc, index) => (
+          {content.description.map((desc, index) => (
             <p key={index} className={description.base}>
               {desc}
             </p>

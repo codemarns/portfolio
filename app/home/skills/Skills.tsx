@@ -10,19 +10,17 @@ import { skillsStyles } from "@/styles";
 import { SkillsProps } from "./types";
 
 export const Skills: React.FC<SkillsProps> = (props) => {
-  const id = "skills";
-  const { data } = props;
-  const { title, skills } = data;
+  const { id, title, ...rest } = props;
+  const { skills } = rest.content;
   const { hard, soft, others } = skills;
 
   const { root, content } = skillsStyles;
-
   const hard_skills = content.skills.hard.list;
   const soft_skills = content.skills.soft.list;
 
   return (
     <Section id={id} className={root.base}>
-      <Container id={id + "_container"}>
+      <Container id={id + "-container"}>
         <Title name={title} />
 
         <div className={hard_skills.base}>

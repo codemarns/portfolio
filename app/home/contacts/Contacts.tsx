@@ -10,17 +10,17 @@ import { Form } from "./components/form";
 import { ContactsProps } from "./types";
 
 export const Contacts: React.FC<ContactsProps> = (props) => {
-  const id = "contacts";
-  const { data } = props;
+  const { id, title, ...rest } = props;
+  const { details, form } = rest.content;
   const { root, content } = contactsStyles;
 
   return (
     <Section id={id} className={root.base}>
-      <Container id={id + "_container"}>
-        <Title name={data.title} />
+      <Container id={id + "-container"}>
+        <Title name={title} />
         <div className={content.base}>
-          <Details data={data.details} />
-          <Form data={data.form} />
+          <Details data={details} />
+          <Form data={form} />
         </div>
       </Container>
     </Section>

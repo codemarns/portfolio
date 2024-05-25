@@ -8,11 +8,12 @@ type Data = {
   link: string;
 };
 
-type Props = {
-  title: string;
+type ContentProps = {
   portfolio: Data[];
-};
+}
 
 export type PortfolioProps = {
-  data: Props;
+  id: string;
+  title: string;
+  content: ContentProps
 };
