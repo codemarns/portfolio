@@ -3,8 +3,8 @@
 import React from "react";
 import { contactsStyles } from "@/app/styles";
 import { Title } from "@/app/components/Title";
-import { Section } from "@/app/common/section";
-import { Container } from "@/app/common/container";
+import { Section } from "@/app/common/Section";
+import { Container } from "@/app/common/Container";
 import { Details } from "./components/details";
 import { Form } from "./components/form";
 import { ContactsProps } from "./types";

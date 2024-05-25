@@ -3,8 +3,8 @@
 import { FC } from "react";
 import { Icon } from "@/app/components/Icon";
 import { Title } from "@/app/components/Title";
-import { Section } from "@/app/common/section";
-import { Container } from "@/app/common/container";
+import { Section } from "@/app/common/Section";
+import { Container } from "@/app/common/Container";
 import { experiencesStyles } from "@/app/styles";
 import { ExperienceProps } from "./types";
 

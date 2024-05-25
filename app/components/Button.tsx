@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import cn from "classnames";
+import { cn } from "@/app/lib/cn";
 import { buttonStyles } from "@/app/styles";
 import { DefaultColorEnum } from "@/app/utils/enum";
 import { Icon } from "./Icon";

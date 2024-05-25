@@ -1,6 +1,6 @@
 "use client";
 
-import cn from "classnames";
+import { cn } from "@/app/lib/cn";
 import React, { useState } from "react";
 import { Button } from "@/app/components/Button";
 import { contactsStyles } from "@/app/styles";

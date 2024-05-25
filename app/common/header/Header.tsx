@@ -5,9 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { Scroll } from "@/app/components/Scroll";
 import { Download } from "@/app/components/Download";
+import { OverlayNav } from "./components/OverlayNav";
+import { BurgerMenu } from "./components/BurgerMenu";
 import { headerStyles } from "@/app/styles";
-import { OverlayNav } from "./overlayNav";
-import { BurgerMenu } from "./burgerMenu";
 
 export const Header = () => {
   const [showOverlayMenu, setShowOverlayMenu] = useState<boolean>(false);

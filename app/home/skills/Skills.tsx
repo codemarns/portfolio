@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import cn from "classnames";
+import { cn } from "@/app/lib/cn";
 import { Icon } from "@/app/components/Icon";
 import { Title } from "@/app/components/Title";
-import { Section } from "@/app/common/section";
-import { Container } from "@/app/common/container";
+import { Section } from "@/app/common/Section";
+import { Container } from "@/app/common/Container";
 import { skillsStyles } from "@/app/styles";
 import { SkillsProps } from "./types";
 

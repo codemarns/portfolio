@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { Loading } from "@/app/components/Loading";
-import { Header } from "@/app/common/header/header";
-import { Footer } from "@/app/common/footer";
+import { Header } from "@/app/common/header/Header";
+import { Footer } from "@/app/common/Footer";
 import { data } from "@/app/api/data";
 import { Client } from "./home/Client";
 

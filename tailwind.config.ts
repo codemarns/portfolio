@@ -84,7 +84,7 @@ const config: Config = {
         "danger-800": "#760021",
         "danger-900": "#480014",
         "danger-950": "#1A0007",
-        light: "#F1F5F9",
+        light: "#F2EDF5",
         dark: "#1A1A1A",
         darker: "#0B0C0F",
       },

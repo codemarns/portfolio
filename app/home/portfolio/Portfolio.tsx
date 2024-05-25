@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import cn from "classnames";
 import Link from "next/link";
 import Image from "next/image";
+import { cn } from "@/app/lib/cn";
 import { Title } from "@/app/components/Title";
-import { Section } from "@/app/common/section";
-import { Container } from "@/app/common/container";
+import { Section } from "@/app/common/Section";
+import { Container } from "@/app/common/Container";
 import { PortfolioProps } from "./types";
 
 export const Portfolio: React.FC<PortfolioProps> = (props) => {
