@@ -10,7 +10,7 @@ type DownloadProps = {
 export const Download: FC<DownloadProps> = ({ size = "md", className }) => {
   return (
     <Link
-      download
+      // download
       target="_blank"
       href={`/MarnienCuebaCV.pdf`}
       className={cn(
