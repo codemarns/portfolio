@@ -106,12 +106,58 @@ export const data = {
     content: {
       experiences: [
         {
+          id: "rwb-digital-designer",
+          company_name: "RWB Smart Solutions Inc.",
+          company_address: "MDCT Building - Cebu Business Park",
+          job_position: "Digital Designer",
+          job_start: "June 2024",
+          job_end: "Present",
+          awards: {
+            label: "",
+            img: "",
+          },
+          responsibilities: [
+            {
+              id: "res-1",
+              description: "Create and improve design systems based on company branding.",
+            },
+            {
+              id: "res-2",
+              description: "Create template component designs for casino template web and mobile designs.",
+            },
+            {
+              id: "res-3",
+              description: "Gather requirements based on their existing projects to help build and improve the template designs.",
+            },
+            {
+              id: "res-4",
+              description: "Improve the existing templates with regards to proper hierarchy of fonts, spacing, and overall consistency of the design.",
+            },
+            {
+              id: "res-5",
+              description: "Redesign the Layout Builder to a more intuitive and user-focused design.",
+            },
+            {
+              id: "res-6",
+              description: "Do research for additional information needed to complete the design.",
+            },
+            {
+              id: "res-7",
+              description: "Gather feedback to improve the design.",
+            },
+            {
+              id: "res-8",
+              description: "Perform UI/UX.",
+            }
+          ]
+        },
+        {
           id: "ui-uiux-frontend-developer",
           company_name: "Unakayo Inc.",
           company_address: "San Diego, CA",
           job_position: "UI/UX & Frontend Developer (Freelance)",
           job_start: "April 2024",
-          job_end: "Present",
+          job_end: "June 2024",
           awards: {
             label: "",
             img: "",
@@ -157,7 +203,7 @@ export const data = {
           company_address: "Sweden",
           job_position: "UI/UX & Frontend Developer (Freelance)",
           job_start: "April 2024",
-          job_end: "Present",
+          job_end: "June 2024",
           awards: {
             label: "",
             img: "",
@@ -199,7 +245,7 @@ export const data = {
           company_address: "Pasig City, Metro Manila",
           job_position: "Frontend Developer (Freelance)",
           job_start: "November 2023",
-          job_end: "Present",
+          job_end: "June 2024",
           awards: {
             label: "",
             img: "",
@@ -228,6 +274,35 @@ export const data = {
             {
               id: "res-5",
               description: "Integrate CMS data to some static pages.",
+            },
+          ],
+        },
+        {
+          id: "fd-product-designer",
+          company_name: "Fucking Digital - Matthias Dunker",
+          company_address: " Dusseldorf, North Rhine-Westphalia, Germany",
+          job_position: "Product Designer",
+          job_start: "February 2024",
+          job_end: "February 2024",
+          awards: {
+            label: "",
+            img: "",
+          },
+          responsibilities: [
+            {
+              id: "res-1",
+              description:
+                "Helped reach goals by doing research and gaining solutions to execute in the project.",
+            },
+            {
+              id: "res-2",
+              description:
+                "Helped identify the problems beforehand.",
+            },
+            {
+              id: "res-3",
+              description:
+                "Made spikes for future use.",
             },
           ],
         },
