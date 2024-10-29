@@ -634,8 +634,8 @@ export const data = {
           {
             id: "figma",
             name: "Figma",
-            level: "intermediate",
-            ratings: 3,
+            level: "proficient",
+            ratings: 4,
           },
           {
             id: "adode-xd",
