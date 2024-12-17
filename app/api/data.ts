@@ -19,8 +19,8 @@ export const data = {
     title: "About Me",
     content: {
       description: [
-        `I am Marnien Cueba. You can call me Marns or Marni for short, currently residing in Cebu, Philippines. An IT college graduate at the Center for Industrial Technology and Enterprise | CITE Technical Institute, Inc.`,
-        `A detail-oriented, UI/UX Designer and Frontend Developer with a total of 7 years of office experience, focusing on creating components that will be used across various projects, designing user interfaces, and user experience design.`,
+        `I am Marnien Cueba. You can call me Marns for short, currently residing in Cebu, Philippines. An IT college graduate at the Center for Industrial Technology and Enterprise | CITE Technical Institute, Inc.`,
+        `A detail-oriented, UI/UX Designer and Frontend Developer with 8 years of office experience, focusing on creating components that will be used across various projects, designing user interfaces, and user experience design.`,
         `I am a collaborative and creative designer and developer with experience in Figma, HTML, CSS, React, TypeScript, and other front-end frameworks such as Next.js. I create dynamic and responsive user interfaces that give excellent user experiences.`,
       ],
     }
@@ -30,35 +30,33 @@ export const data = {
     title: "Portfolio",
     content: {
       portfolio: [
-        // {
-        //   id: "23point5",
-        //   alt: "23point5 logo",
-        //   img: "/23point5_logo.svg",
-        //   tag: "Website",
-        //   title: "23point5",
-        //   description:
-        //     "The only platform that allows you to create designs never possible before and instantly sell them in your store with $0 startup costs.",
-        //   link: "https://www.23point5.com/",
-        // },
         {
-          id: "airbands",
-          alt: "airbands logo",
-          img: "/airbands-logo.png",
-          tag: "Website",
-          title: "AIRBANDS",
+          id: "unakayo",
+          alt: "unakayo-logo",
+          img: "/unakayo-logo.svg",
+          tag: "Figma",
+          title: "Unakayo",
           description:
-            "Leverages the benefits of blood flow restriction (BFR) to reduce the time and intensity required to build muscle and increase strength.",
-          link: "https://airbandsbfr.com/",
+            "An innovative gifting platform designed to increase employee experience and maximize professionals for achieving success!",
+          link: "https://www.figma.com/design/UihDbvpoDRAaTZW1EcmD6T/Una-Kayo?node-id=0-1&t=gdeIBdtszWupmR5n-1",
         },
         {
-          id: "prestige",
-          alt: "prestige-logo",
-          img: "/prestige-logo.png",
-          tag: "Website",
-          title: "Prestige by Filinvest",
-          description:
-            "A place where exclusive living meets timeless value. Explore exquisite adventures through heirloom properties reserved for a discerning few.",
-          link: "https://fli-prestige.stagingurls.com/",
+          id: "landchecker",
+          alt: "landchecker-logo",
+          img: "/landchecker.svg",
+          tag: "Figma",
+          title: "Landchecker",
+          description: `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
+          link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
+        },
+        {
+          id: "startupz",
+          alt: "startupz-logo",
+          img: "/startupz-logo.png",
+          tag: "Figma",
+          title: "Startupz",
+          description: `This is my rebranding design of Startupz. A platform that operate as a dynamic and innovative startup studio, specializing in the comprehensive process of conceiving, developing, and successfully launching pioneering new companies into the market.`,
+          link: "https://www.figma.com/proto/os2br0vvCo2yxjEyBIH13t/Startupz?type=design&node-id=82-2663&t=DKCNdw6ss4q7bK8C-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2",
         },
         {
           id: "easy-rent",
@@ -80,22 +78,14 @@ export const data = {
           link: "https://www.figma.com/proto/QYqFJz2e7KFen1PcVeqpoU/Components?type=design&node-id=7-5&t=tbVTGbJZuJnFUaiY-0&scaling=min-zoom&page-id=0%3A1",
         },
         {
-          id: "landchecker",
-          alt: "landchecker-logo",
-          img: "/landchecker.svg",
-          tag: "Figma",
-          title: "Landchecker",
-          description: `This is my rebranding design of landchecker.com.au. A platform that helps you to conduct property research quickly and easily, with the benefit of visualizing data-sets in context.`,
-          link: "https://www.figma.com/proto/4tmVm1uEVehxhxuqIdHpis/Landchecker?type=design&node-id=1-2&t=UT4gO90HmNSUmQHh-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=123%3A1993",
-        },
-        {
-          id: "startupz",
-          alt: "startupz-logo",
-          img: "/startupz-logo.png",
-          tag: "Figma",
-          title: "Startupz",
-          description: `This is my rebranding design of Startupz. A platform that operate as a dynamic and innovative startup studio, specializing in the comprehensive process of conceiving, developing, and successfully launching pioneering new companies into the market.`,
-          link: "https://www.figma.com/proto/os2br0vvCo2yxjEyBIH13t/Startupz?type=design&node-id=82-2663&t=DKCNdw6ss4q7bK8C-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2",
+          id: "airbands",
+          alt: "airbands logo",
+          img: "/airbands-logo.png",
+          tag: "Website",
+          title: "AIRBANDS",
+          description:
+            "Leverages the benefits of blood flow restriction (BFR) to reduce the time and intensity required to build muscle and increase strength.",
+          link: "https://airbandsbfr.com/",
         },
       ],
     }
@@ -109,7 +99,7 @@ export const data = {
           id: "rwb-digital-designer",
           company_name: "RWB Smart Solutions Inc.",
           company_address: "MDCT Building - Cebu Business Park",
-          job_position: "Digital Designer",
+          job_position: "UI/UX Designer",
           job_start: "June 2024",
           job_end: "Present",
           awards: {
@@ -119,34 +109,38 @@ export const data = {
           responsibilities: [
             {
               id: "res-1",
-              description: "Create and improve design systems based on company branding.",
+              description: "Create dynamic template that can handle light/dark mode and color theme.",
             },
             {
               id: "res-2",
-              description: "Create template component designs for casino template web and mobile designs.",
+              description: "Create and improve design systems based on company branding.",
             },
             {
               id: "res-3",
-              description: "Gather requirements based on their existing projects to help build and improve the template designs.",
+              description: "Create template component designs for casino template web and mobile designs.",
             },
             {
               id: "res-4",
-              description: "Improve the existing templates with regards to proper hierarchy of fonts, spacing, and overall consistency of the design.",
+              description: "Gather requirements based on their existing projects to help build and improve the template designs.",
             },
             {
               id: "res-5",
-              description: "Redesign the Layout Builder to a more intuitive and user-focused design.",
+              description: "Improve the existing templates with regards to proper hierarchy of fonts, spacing, and overall consistency of the design.",
             },
             {
               id: "res-6",
-              description: "Do research for additional information needed to complete the design.",
+              description: "Redesign the Layout Builder to a more intuitive and user-focused design.",
             },
             {
               id: "res-7",
-              description: "Gather feedback to improve the design.",
+              description: "Do research for additional information needed to complete the design.",
             },
             {
               id: "res-8",
+              description: "Gather feedback to improve the design.",
+            },
+            {
+              id: "res-9",
               description: "Perform UI/UX.",
             }
           ]
@@ -243,9 +237,9 @@ export const data = {
           id: "pi-frontend-developer",
           company_name: "Projectgrey Inc.",
           company_address: "Pasig City, Metro Manila",
-          job_position: "Frontend Developer (Freelance)",
+          job_position: "Frontend Developer (On-call)",
           job_start: "November 2023",
-          job_end: "June 2024",
+          job_end: "Present",
           awards: {
             label: "",
             img: "",
