@@ -20,7 +20,7 @@ export const Contacts: React.FC<ContactsProps> = (props) => {
         <Title name={title} />
         <div className={content.base}>
           <Details data={details} />
-          <Form data={form} />
+          {/* <Form data={form} /> */}
         </div>
       </Container>
     </Section>

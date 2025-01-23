@@ -31,6 +31,16 @@ export const data = {
     content: {
       portfolio: [
         {
+          id: "rwb",
+          alt: "rwb-logo",
+          img: "/rwb-logo.svg",
+          tag: "Figma | Next.js",
+          title: "RWB Website Revamp",
+          description:
+            "RWB Solutions Internationals was founded to transform the iGaming industry by providing innovative, scalable solutions for operators worldwide.",
+          link: "https://rwbinter.com",
+        },
+        {
           id: "unakayo",
           alt: "unakayo-logo",
           img: "/unakayo-logo.svg",
@@ -628,6 +638,12 @@ export const data = {
           {
             id: "figma",
             name: "Figma",
+            level: "proficient",
+            ratings: 4,
+          },
+          {
+            id: "balsamiq",
+            name: "Balsamiq",
             level: "proficient",
             ratings: 4,
           },

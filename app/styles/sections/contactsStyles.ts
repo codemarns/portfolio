@@ -3,10 +3,11 @@ export const contactsStyles = {
     base: "bg-gradient-to-b from-darker to-transparent",
   },
   content: {
-    base: "grid grid-cols-1 lg:grid-cols-[1fr,_450px] gap-12",
+    // base: "grid grid-cols-1 lg:grid-cols-[1fr,_450px] gap-12",
+    base: "w-full max-w-4xl mx-auto flex justify-center gap-12",
   },
   details: {
-    base: "text-left space-y-10",
+    base: "text-center space-y-10",
     heading: {
       base: "text-3xl xs:text-4xl md:text-6xl font-bold leading-tight",
     },
@@ -19,7 +20,7 @@ export const contactsStyles = {
         base: "text-xl font-bold",
       },
       ul: {
-        base: "flex items-center gap-4",
+        base: "flex items-center justify-center gap-4",
         list: {
           base: "flex items-center gap-4 p-2 bg-darker rounded-md",
           icon: "text-3xl",
