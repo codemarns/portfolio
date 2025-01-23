@@ -119,38 +119,42 @@ export const data = {
           responsibilities: [
             {
               id: "res-1",
-              description: "Create dynamic template that can handle light/dark mode and color theme.",
+              description: "Revamp RWB website. From gathering requirements, visualizing the data into design, to frontend development.",
             },
             {
               id: "res-2",
-              description: "Create and improve design systems based on company branding.",
+              description: "Lead most of the design projects with the team.",
             },
             {
               id: "res-3",
-              description: "Create template component designs for casino template web and mobile designs.",
+              description: "Create dynamic template that can handle light/dark mode and color theme.",
             },
             {
               id: "res-4",
-              description: "Gather requirements based on their existing projects to help build and improve the template designs.",
+              description: "Create and improve design systems based on company branding.",
             },
             {
               id: "res-5",
-              description: "Improve the existing templates with regards to proper hierarchy of fonts, spacing, and overall consistency of the design.",
+              description: "Create template component designs for casino template web and mobile designs.",
             },
             {
               id: "res-6",
-              description: "Redesign the Layout Builder to a more intuitive and user-focused design.",
+              description: "Gather requirements based on their existing projects to help build and improve the template designs.",
             },
             {
               id: "res-7",
-              description: "Do research for additional information needed to complete the design.",
+              description: "Improve the existing templates with regards to proper hierarchy of fonts, spacing, and overall consistency of the design.",
             },
             {
               id: "res-8",
-              description: "Gather feedback to improve the design.",
+              description: "Redesign the Layout Builder to a more intuitive and user-centered design.",
             },
             {
               id: "res-9",
+              description: "Gather feedback to improve the design.",
+            },
+            {
+              id: "res-10",
               description: "Perform UI/UX.",
             }
           ]
